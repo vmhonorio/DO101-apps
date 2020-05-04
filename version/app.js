@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Primeira versão do Vitor Honório !!' + '\n';
+    response = 'Segunda versão do Vitor Honório !!' + '\n';
 
     //send the response to the client
     res.send(response);
