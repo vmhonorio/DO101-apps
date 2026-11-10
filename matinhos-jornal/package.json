@@ -1,0 +1,21 @@
+{
+  "name": "matinhos-jornal",
+  "version": "1.0.0",
+  "description": "Jornal digital de Matinhos (PR): classificados, serviços, empregos e avisos da cidade",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "matinhos",
+    "jornal",
+    "classificados"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
