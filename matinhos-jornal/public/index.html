@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jornal de Matinhos</title>
+  <meta name="description" content="Classificados, serviços, empregos e avisos da cidade de Matinhos, litoral do Paraná.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+      <p class="topo-data" id="data-hoje"></p>
+      <h1 class="topo-titulo">Jornal de Matinhos</h1>
+      <p class="topo-slogan">Serviços, classificados, empregos e avisos do litoral do Paraná</p>
+      <nav class="topo-acoes">
+        <a class="btn btn-primario" href="#publicar">📣 Publicar anúncio</a>
+        <a class="btn btn-secundario" href="#anuncios">📰 Ver anúncios</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="busca" aria-label="Busca e filtros">
+      <input id="busca" type="search" placeholder="Buscar por serviço, empresa, bairro..." aria-label="Buscar anúncios">
+      <div class="categorias" id="categorias" role="group" aria-label="Filtrar por categoria"></div>
+    </section>
+
+    <section id="anuncios" aria-live="polite">
+      <div class="secao-cabecalho">
+        <h2 id="titulo-lista">Todos os anúncios</h2>
+        <span class="contador" id="contador"></span>
+      </div>
+      <div class="grade" id="lista"></div>
+      <p class="vazio" id="vazio" hidden>Nenhum anúncio encontrado. Seja o primeiro a publicar!</p>
+    </section>
+
+    <section id="publicar" class="publicar">
+      <h2>Publique seu anúncio</h2>
+      <p class="publicar-intro">Gratuito para moradores e comerciantes de Matinhos. Preencha os campos e seu anúncio aparece na hora.</p>
+      <form id="form-anuncio" novalidate>
+        <div class="campo">
+          <label for="f-categoria">Categoria *</label>
+          <select id="f-categoria" name="categoria" required></select>
+        </div>
+        <div class="campo">
+          <label for="f-titulo">Título *</label>
+          <input id="f-titulo" name="titulo" maxlength="120" required placeholder="Ex.: Vaga de emprego em Caiobá">
+        </div>
+        <div class="campo">
+          <label for="f-empresa">Empresa ou responsável</label>
+          <input id="f-empresa" name="empresa" maxlength="120" placeholder="Ex.: Brazuca Burger">
+        </div>
+        <div class="campo campo-largo">
+          <label for="f-descricao">Descrição *</label>
+          <textarea id="f-descricao" name="descricao" rows="4" maxlength="1000" required placeholder="Descreva o serviço, produto, vaga ou aviso"></textarea>
+        </div>
+        <div class="campo">
+          <label for="f-preco">Preço</label>
+          <input id="f-preco" name="preco" maxlength="40" placeholder="Ex.: R$ 129,00">
+        </div>
+        <div class="campo">
+          <label for="f-bairro">Bairro</label>
+          <input id="f-bairro" name="bairro" maxlength="60" placeholder="Ex.: Centro, Caiobá, Tabuleiro">
+        </div>
+        <div class="campo campo-largo">
+          <label for="f-endereco">Endereço</label>
+          <input id="f-endereco" name="endereco" maxlength="160" placeholder="Ex.: Av. Maringá, 212 – Centro">
+        </div>
+        <div class="campo">
+          <label for="f-whatsapp">WhatsApp (DDD + número)</label>
+          <input id="f-whatsapp" name="whatsapp" inputmode="numeric" maxlength="20" placeholder="41999990000">
+        </div>
+        <div class="campo">
+          <label for="f-instagram">Instagram</label>
+          <input id="f-instagram" name="instagram" maxlength="60" placeholder="@seuperfil">
+        </div>
+        <div class="campo campo-largo campo-check">
+          <label><input id="f-urgente" name="urgente" type="checkbox"> Marcar como urgente (animal perdido, achados e perdidos, emergências)</label>
+        </div>
+        <div class="campo campo-largo">
+          <button class="btn btn-primario" type="submit">Publicar no jornal</button>
+          <p class="form-msg" id="form-msg" role="status"></p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p><strong>Jornal de Matinhos</strong> · Matinhos, Paraná · Feito pela comunidade, para a comunidade.</p>
+      <p class="rodape-aviso">Os anúncios são de responsabilidade de quem publica. Verifique as informações antes de fechar negócio.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
