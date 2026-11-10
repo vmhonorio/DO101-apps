@@ -54,6 +54,50 @@ curl -X POST http://localhost:8080/api/anuncios \
   -d '{"categoria":"empregos","titulo":"Vaga de atendente","empresa":"Padaria do Centro","descricao":"Vaga para atendente de balcão, período da manhã.","bairro":"Centro","whatsapp":"41999990000","instagram":"@padariadocentro"}'
 ```
 
+## Deploy no OpenShift
+
+A pasta inclui um `Dockerfile` baseado na imagem `ubi9/nodejs-22-minimal`,
+preparado para rodar com UID arbitrário (padrão do OpenShift), expondo a porta
+`8080` e gravando os anúncios em `/opt/app-root/data` (`DATA_DIR`).
+
+### Opção 1: build direto do repositório Git (estratégia Docker)
+
+```bash
+oc new-app https://github.com/vmhonorio/DO101-apps \
+  --context-dir=matinhos-jornal \
+  --strategy=docker \
+  --name=matinhos-jornal
+oc expose service matinhos-jornal
+oc get route matinhos-jornal
+```
+
+### Opção 2: build local e push para um registro
+
+```bash
+cd matinhos-jornal
+podman build -t quay.io/SEU_USUARIO/matinhos-jornal:1.0 .
+podman push quay.io/SEU_USUARIO/matinhos-jornal:1.0
+oc new-app quay.io/SEU_USUARIO/matinhos-jornal:1.0 --name=matinhos-jornal
+oc expose service matinhos-jornal
+```
+
+### Persistência e probes
+
+Para manter os anúncios publicados entre reinícios do pod, monte um volume em
+`/opt/app-root/data`:
+
+```bash
+oc set volume deployment/matinhos-jornal --add --name=dados \
+  --type=pvc --claim-size=1Gi --mount-path=/opt/app-root/data
+```
+
+Para as probes de disponibilidade, use a rota `/health`:
+
+```bash
+oc set probe deployment/matinhos-jornal --readiness --liveness \
+  --get-url=http://:8080/health
+```
+
 ## Dados
 
 Os anúncios iniciais ficam em `data/anuncios.json`. Novos anúncios são salvos em
