@@ -171,6 +171,22 @@ describe('planilha completa (flat + Parent, PT-BR, 3 abas, duplicado)', () => {
 });
 
 describe('outros formatos', () => {
+  it('CSV UTF-8 com BOM e acentos (cabeçalhos PT-BR) e CSV Windows-1252', () => {
+    const csv = '\uFEFFID;Tipo de Item de Trabalho;Título;Estado;Atribuído a\n1;Bug;Ação crítica;Em Testes;João\n';
+    const utf8 = new TextEncoder().encode(csv);
+    const s1 = readWorkbook(utf8.buffer as ArrayBuffer)[0];
+    expect(s1.layout!.mapping).toMatchObject({ id: 0, type: 1, title: 2, state: 3, assignedTo: 4 });
+    const p = previewImport([{ name: 'csv', rows: s1.rows, layout: s1.layout! }], 'DMY');
+    expect(p.items[0]).toMatchObject({ title: 'Ação crítica', assignedTo: 'João' });
+    const latin = Uint8Array.from([...csv.slice(1)].map((ch) => ch.charCodeAt(0)));
+    const s2 = readWorkbook(latin.buffer as ArrayBuffer)[0];
+    expect(previewImport([{ name: 'csv', rows: s2.rows, layout: s2.layout! }], 'DMY').items[0].title).toBe('Ação crítica');
+  });
+  it('CSV de exemplo (dados fictícios) importa todos os itens', () => {
+    const s = load('public/samples/exemplo-sprint16.csv', 'S16', new Date('2026-10-10').toISOString());
+    expect(s.items.length).toBe(750);
+    expect(s.hierarchySource).toBe('parent-field');
+  });
   it('query em árvore, cabeçalhos EN, datas ISO', () => {
     const s = load('public/samples/tree-query-en.xlsx', 'T', new Date('2026-10-10').toISOString());
     expect(s.hierarchySource).toBe('tree');

@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "build:artifact": "tsc -b && vite build --mode artifact"
+    "build:artifact": "tsc -b && vite build --mode artifact && python3 scripts/artifact-page.py dist-artifact/index.html dist-artifact/artifact-page.html"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.11.0",
