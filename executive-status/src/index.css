@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html, body { background: #e9edf3; color: #0f172a; }
+body { font-family: 'Source Sans 3', 'Segoe UI', Roboto, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+.tabular { font-variant-numeric: tabular-nums; }
+
+@media print {
+  html, body { background: #fff !important; }
+  .no-print { display: none !important; }
+  .print-reset { transform: none !important; width: auto !important; height: auto !important; overflow: visible !important; padding: 0 !important; margin: 0 !important; }
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+}
