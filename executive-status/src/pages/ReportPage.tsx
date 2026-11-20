@@ -1,4 +1,4 @@
-import { Download, FileText, Printer, Sparkles, ChevronsDownUp, ChevronsUpDown, X } from 'lucide-react';
+import { Download, FileText, Image as ImageIcon, Printer, Sparkles, ChevronsDownUp, ChevronsUpDown, X } from 'lucide-react';
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { getApiKey, setApiKey } from '../ai/key';
 import { exportConsolidated } from '../data/exporters';
@@ -20,6 +20,9 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
   const [highlight, setHighlight] = useState(true);
   const [drill, setDrill] = useState<DrillSpec | null>(null);
+  const [img, setImg] = useState<{ url: string; name: string } | null>(null);
+  const [imgBusy, setImgBusy] = useState(false);
+  const [imgError, setImgError] = useState('');
   const [useAi, setUseAi] = useState(true);
   const [aiBusy, setAiBusy] = useState(false);
   const [aiError, setAiError] = useState('');
@@ -70,6 +73,19 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
     document.title = `Status Executivo - ${config.project} - ${snap.label}`;
     window.print();
     document.title = old;
+  };
+
+  const exportImage = async () => {
+    const el = document.getElementById('executive-report');
+    if (!el || !config || !snap) return;
+    setImgBusy(true); setImgError('');
+    try {
+      const { reportToPng } = await import('../ui/report/exportImage');
+      const url = await reportToPng(el, IS_ARTIFACT ? 1.5 : 2);
+      setImg({ url, name: `status-executivo-${config.project}-${snap.label}.png`.replace(/[^\w.-]+/g, '_') });
+    } catch (e) {
+      setImgError(`Não foi possível gerar a imagem: ${e instanceof Error ? e.message : String(e)}`);
+    } finally { setImgBusy(false); }
   };
 
   const runAi = async () => {
@@ -132,6 +148,7 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
                 {snap.aiReading && <label className="flex h-9 items-center gap-1.5 text-sm"><input type="checkbox" checked={useAi} onChange={(e) => setUseAi(e.target.checked)} /> Usar texto IA</label>}
               </>
             )}
+            <Button variant={IS_ARTIFACT ? 'navy' : 'outline'} onClick={() => void exportImage()} disabled={imgBusy}><ImageIcon size={15} /> {imgBusy ? 'Gerando…' : 'Exportar imagem'}</Button>
             {IS_ARTIFACT ? (
               <span className="max-w-xs text-xs text-slate-500">Versão online: PDF, impressão e Excel estão disponíveis na versão instalada (npm run dev).</span>
             ) : (
@@ -164,6 +181,7 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
           <Input value={filters.search} onChange={(e) => setF({ search: e.target.value })} placeholder="Buscar título ou ID" className="h-8 w-52 text-[13px]" />
           {filtered && <Button size="sm" variant="ghost" onClick={() => setFilters(EMPTY_FILTERS)}><X size={14} /> Limpar filtros</Button>}
           {filtered && <span className="text-xs font-semibold text-amber-700">Filtros ativos: todos os indicadores refletem o recorte.</span>}
+          {imgError && <span className="text-xs font-semibold text-red-700">{imgError}</span>}
           {aiError && <span className="text-xs font-semibold text-red-700">IA: {aiError}</span>}
           {snap.warnings.length > 0 && <span className="text-xs text-slate-500" title={snap.warnings.join('\n')}>⚠ {snap.warnings.length} aviso(s) de importação</span>}
         </div>
@@ -179,6 +197,11 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
         </div>
       </div>
 
+      <Modal open={!!img} onOpenChange={(o) => !o && setImg(null)} wide title="Imagem do relatório"
+        subtitle={IS_ARTIFACT ? 'Para salvar: no celular, toque e segure a imagem e escolha “Salvar imagem”; no computador, clique com o botão direito > “Salvar imagem como…”.' : 'PNG em alta resolução, com os filtros e grupos exatamente como estão na tela.'}
+        actions={!IS_ARTIFACT && img ? <a href={img.url} download={img.name} className="inline-flex h-8 items-center gap-1.5 rounded-md bg-navy-900 px-2.5 text-[13px] font-semibold text-white"><Download size={14} /> Baixar PNG</a> : undefined}>
+        {img && <img src={img.url} alt="Status Executivo" className="w-full rounded border border-slate-200" />}
+      </Modal>
       <DrillDown spec={drill} cfg={config} byId={model.h.byId} onClose={() => setDrill(null)} />
       <Modal open={keyOpen} onOpenChange={setKeyOpen} title="Chave da API (Claude)" subtitle="Usada apenas nesta sessão do navegador para redigir a leitura executiva a partir dos indicadores já calculados.">
         <Input type="password" value={keyDraft} onChange={(e) => setKeyDraft(e.target.value)} placeholder="sk-ant-…" className="w-full" />

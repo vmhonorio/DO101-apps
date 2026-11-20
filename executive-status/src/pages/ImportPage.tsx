@@ -8,12 +8,13 @@ import { fmtDate } from '../domain/format';
 import { useStore } from '../store';
 import { Badge, Button, Card, Field, Input, Select } from '../ui/primitives';
 import { cn } from '../ui/cn';
+import { QueryGuide } from '../ui/QueryGuide';
 
 const pad = (n: number) => String(n).padStart(2, '0');
 const localNow = () => { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`; };
 
 export function ImportPage({ go }: { go: (r: string) => void }) {
-  const { project, projects, saveSnapshot, config } = useStore();
+  const { project, projects, saveSnapshot, config, snapshots } = useStore();
   const [fileName, setFileName] = useState('');
   const [sheets, setSheets] = useState<SheetInfo[]>([]);
   const [layouts, setLayouts] = useState<Record<string, SheetLayout>>({});
@@ -87,6 +88,7 @@ export function ImportPage({ go }: { go: (r: string) => void }) {
 
   return (
     <div className="mx-auto max-w-7xl space-y-4 p-4">
+      <QueryGuide cfg={config} available={snapshots[snapshots.length - 1]?.availableFields} treeHierarchy={['tree', 'mixed'].includes(snapshots[snapshots.length - 1]?.hierarchySource ?? '')} defaultOpen={!snapshots.length} />
       <Card title="1. Arquivo exportado do Azure DevOps">
         <label
           onDragOver={(e) => { e.preventDefault(); setDrag(true); }} onDragLeave={() => setDrag(false)}

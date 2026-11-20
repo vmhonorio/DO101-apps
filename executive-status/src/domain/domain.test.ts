@@ -211,3 +211,28 @@ describe('outros formatos', () => {
     expect(ins.reading).toMatch(/cards concluídos/);
   });
 });
+
+describe('guia da query e modelo de planilha', async () => {
+  const { FIELD_GUIDE, templateRows, buildWiql } = await import('./queryGuide');
+  it('o modelo exportado é reconhecido pela importação, com todas as colunas mapeadas', () => {
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(templateRows()), 'Modelo');
+    const s = readWorkbook(XLSX.write(wb, { type: 'array', bookType: 'xlsx' }) as ArrayBuffer)[0];
+    for (const f of FIELD_GUIDE) expect(s.layout!.mapping[f.key], f.en).toBeDefined();
+    const p = previewImport([{ name: 'Modelo', rows: s.rows, layout: s.layout! }], 'DMY');
+    expect(p.items).toHaveLength(4);
+    expect(p.hierarchy).toBe('parent-field');
+    expect(p.items.find((i) => i.id === 1004)!.tags).toEqual(['bloqueado', 'fornecedor']);
+  });
+  it('nomes em português da tabela também são reconhecidos', () => {
+    const rows = [FIELD_GUIDE.map((f) => f.pt)];
+    const l = detectLayout(rows)!;
+    for (const f of FIELD_GUIDE) expect(l.mapping[f.key], f.pt).toBeDefined();
+  });
+  it('WIQL usa os tipos configurados', () => {
+    const w = buildWiql(defaultConfig('X'));
+    expect(w).toMatch(/\[System\.Parent\]/);
+    expect(w).toMatch(/'Epic', 'Feature', 'Product Backlog Item'/);
+    expect(buildWiql(defaultConfig('X'), true)).toMatch(/MODE \(Recursive\)/);
+  });
+});
