@@ -15,6 +15,7 @@ interface Store {
   deleteSnapshot: (id: string) => Promise<void>;
   updateSnapshot: (s: Snapshot) => Promise<void>;
   refresh: () => Promise<void>;
+  loadDemo: () => Promise<void>;
 }
 
 const Ctx = createContext<Store | null>(null);
@@ -69,6 +70,16 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     updateSnapshot: async (s) => { await repo.saveSnapshot(s); setAll((l) => l.map((x) => (x.id === s.id ? s : x))); },
     deleteSnapshot: async (id) => { await repo.deleteSnapshot(id); await refresh(); },
     refresh,
+    loadDemo: async () => {
+      const { demoData } = await import('./data/demo');
+      const { snapshots: list, config: cfg } = await demoData();
+      const { cfg: full } = ensureStateRules(cfg, list.flatMap((x) => x.items));
+      await repo.saveConfig({ ...full, stateRules: Object.fromEntries(Object.entries(full.stateRules).map(([k, v]) => [k, { ...v, auto: false }])) });
+      for (const x of list) await repo.saveSnapshot(x);
+      setLast(cfg.project);
+      setProjectState(cfg.project);
+      await refresh();
+    },
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

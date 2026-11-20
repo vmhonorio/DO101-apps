@@ -3,7 +3,8 @@ import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { defaultConfig, ensureStateRules } from '../domain/config';
 import { CATEGORY_LABEL, type Category, type ProjectConfig, type SprintDef } from '../domain/types';
 import { useStore } from '../store';
-import { Badge, Button, Card, Empty, Field, Input, Select } from '../ui/primitives';
+import { Badge, Button, Card, ConfirmButton, Empty, Field, Input, Select } from '../ui/primitives';
+import { IS_ARTIFACT } from '../env';
 import { cn } from '../ui/cn';
 import { getApiKey, setApiKey } from '../ai/key';
 
@@ -64,9 +65,9 @@ export function ConfigPage() {
         <h1 className="text-xl font-bold text-navy-900">Configuração — {c.project}</h1>
         <span className="text-sm text-slate-500">Todas as regras de negócio ficam aqui; nada é fixo no código.</span>
         <div className="ml-auto flex gap-2">
-          <Button variant="ghost" onClick={exportJson}><Download size={15} /> Exportar JSON</Button>
+          {!IS_ARTIFACT && <Button variant="ghost" onClick={exportJson}><Download size={15} /> Exportar JSON</Button>}
           <label className="inline-flex h-9 cursor-pointer items-center gap-1.5 rounded-md px-3.5 text-sm font-semibold text-slate-700 hover:bg-slate-100"><Upload size={15} /> Importar JSON<input type="file" accept=".json" className="hidden" onChange={(e) => e.target.files?.[0] && void importJson(e.target.files[0])} /></label>
-          <Button variant="outline" onClick={() => { if (confirm('Restaurar a configuração padrão deste projeto?')) set(ensureStateRules(defaultConfig(c.project), snapshots.flatMap((s) => s.items)).cfg); }}><RotateCcw size={15} /> Padrão</Button>
+          <ConfirmButton className="border border-slate-300 bg-white px-3.5" confirmLabel="Restaurar padrão?" onConfirm={() => set(ensureStateRules(defaultConfig(c.project), snapshots.flatMap((s) => s.items)).cfg)}><RotateCcw size={15} /> Padrão</ConfirmButton>
           <Button onClick={() => void save()}><Save size={15} /> {saved ? 'Salvo' : 'Salvar'}</Button>
         </div>
       </div>
@@ -214,7 +215,7 @@ export function ConfigPage() {
       {tab === TABS[4] && (
         <Card>
           {sec('Azure DevOps', <Field label="URL base do projeto" hint="Ex.: https://dev.azure.com/organizacao/projeto — usada para links nos itens do detalhamento." className="w-[520px]"><Input value={c.azureBaseUrl ?? ''} onChange={(e) => set({ azureBaseUrl: e.target.value || undefined })} /></Field>)}
-          {sec('Leitura executiva com IA (opcional)', <>
+          {!IS_ARTIFACT && sec('Leitura executiva com IA (opcional)', <>
             <label className="flex h-9 items-center gap-2 text-sm"><input type="checkbox" checked={c.ai.enabled} onChange={(e) => set({ ai: { ...c.ai, enabled: e.target.checked } })} /> Habilitar botão “Leitura com IA” (Claude)</label>
             <Field label="Modelo"><Input value={c.ai.model} onChange={(e) => set({ ai: { ...c.ai, model: e.target.value } })} className="w-56" /></Field>
             <Field label="Chave da API (somente nesta sessão)"><Input type="password" value={key} onChange={(e) => { setKey(e.target.value); setApiKey(e.target.value); }} className="w-72" placeholder="sk-ant-…" /></Field>

@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "build:artifact": "tsc -b && vite build --mode artifact"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.11.0",
@@ -37,6 +38,7 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
     "vite": "^6.3.5",
+    "vite-plugin-singlefile": "^2.3.4",
     "vitest": "^3.2.7"
   }
 }

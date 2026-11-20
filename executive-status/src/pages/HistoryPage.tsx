@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import { computeReport } from '../domain/metrics';
 import { fmtDate, fmtPct } from '../domain/format';
 import { useStore } from '../store';
-import { Button, Card, Empty } from '../ui/primitives';
+import { Button, Card, ConfirmButton, Empty } from '../ui/primitives';
 
 export function HistoryPage({ go }: { go: (r: string) => void }) {
   const { snapshots, config, deleteSnapshot, project } = useStore();
@@ -35,7 +35,7 @@ export function HistoryPage({ go }: { go: (r: string) => void }) {
                 </td>
                 <td className="pr-2">{{ onTrack: 'No prazo', attention: 'Atenção', critical: 'Crítico', nd: 'N/D' }[m.health.value]}</td>
                 <td className="pr-2 text-xs">{s.hierarchySource}</td>
-                <td><button title="Excluir snapshot" onClick={() => { if (confirm(`Excluir o snapshot "${s.label}"?`)) void deleteSnapshot(s.id); }}><Trash2 size={15} className="text-red-600" /></button></td>
+                <td><ConfirmButton title="Excluir snapshot" confirmLabel="Excluir?" onConfirm={() => void deleteSnapshot(s.id)}><Trash2 size={15} className="text-red-600" /></ConfirmButton></td>
               </tr>
             ))}
           </tbody>

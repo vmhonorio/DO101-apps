@@ -8,6 +8,7 @@ import { Button, Input, Modal } from '../primitives';
 import { itemRows } from '../../data/exporters';
 import { downloadWorkbook } from '../../data/excel';
 import type { DrillSpec } from './ExecutiveReport';
+import { IS_ARTIFACT } from '../../env';
 
 export function DrillDown({ spec, cfg, byId, onClose }: { spec: DrillSpec | null; cfg: ProjectConfig; byId: Map<number, WorkItem>; onClose: () => void }) {
   const [q, setQ] = useState('');
@@ -18,7 +19,7 @@ export function DrillDown({ spec, cfg, byId, onClose }: { spec: DrillSpec | null
   const link = (id: number) => (cfg.azureBaseUrl ? `${cfg.azureBaseUrl.replace(/\/$/, '')}/_workitems/edit/${id}` : undefined);
   return (
     <Modal open={!!spec} onOpenChange={(o) => !o && onClose()} wide title={spec?.title ?? ''} subtitle={spec?.subtitle ?? `${spec?.items.length ?? 0} cards`}
-      actions={<Button size="sm" variant="outline" onClick={() => downloadWorkbook([{ name: 'Itens', rows: itemRows(items, cfg, byId) }], 'detalhe.xlsx')}><Download size={14} /> Excel</Button>}>
+      actions={IS_ARTIFACT ? undefined : <Button size="sm" variant="outline" onClick={() => downloadWorkbook([{ name: 'Itens', rows: itemRows(items, cfg, byId) }], 'detalhe.xlsx')}><Download size={14} /> Excel</Button>}>
       <Input placeholder="Filtrar por título ou ID…" value={q} onChange={(e) => setQ(e.target.value)} className="mb-3 w-72" />
       <table className="w-full text-[13px]">
         <thead className="sticky top-0 bg-white text-left text-slate-500">

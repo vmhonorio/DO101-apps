@@ -4,6 +4,13 @@ Transforma a exportação Excel de uma **Query do Azure DevOps** em um **Status 
 
 Fluxo: executar a query → exportar para Excel/CSV → **Importar** → o relatório é calculado automaticamente → **Exportar PDF**.
 
+## Acessar
+
+* **Versão online (demonstração):** https://claude.ai/artifact/PzbLiZn9h1FVrEUvatWmod — importação, relatório, filtros, detalhamento, histórico e configuração. Por restrição do ambiente do claude.ai, não há impressão/PDF, download de Excel nem leitura com IA; os dados ficam salvos só no navegador de quem acessa.
+* **Versão completa (local):** veja abaixo. Inclui PDF, impressão, Excel consolidado e IA opcional.
+
+`npm run build:artifact` gera o HTML único usado na versão online (`dist-artifact/`).
+
 ## Executar
 
 ```bash
@@ -11,7 +18,7 @@ npm install
 npm run dev        # http://localhost:5173
 npm test           # testes do domínio (vitest)
 npm run build      # build de produção em dist/
-node scripts/make-samples.mjs   # gera planilhas de TESTE (dados fictícios) em samples/
+node scripts/make-samples.mjs   # gera planilhas de TESTE (dados fictícios) em public/samples/
 ```
 
 ## Funcionalidades
@@ -26,4 +33,4 @@ node scripts/make-samples.mjs   # gera planilhas de TESTE (dados fictícios) em 
 
 Detalhes de arquitetura, modelo de dados, regras de cálculo e riscos técnicos: [docs/ARQUITETURA.md](docs/ARQUITETURA.md).
 
-> As planilhas em `samples/` são **dados fictícios de teste**, usados para validar diferentes formatos (flat com Parent em PT-BR, árvore em EN, CSV mínimo com estados Agile).
+> As planilhas em `public/samples/` são **dados fictícios de teste**, usados para validar diferentes formatos (flat com Parent em PT-BR, árvore em EN, CSV mínimo com estados Agile).

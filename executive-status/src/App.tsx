@@ -26,7 +26,7 @@ function Shell() {
   const go = (r: string) => { location.hash = r; setRoute(r); };
   return (
     <div className="min-h-screen">
-      <nav className="no-print sticky top-0 z-30 flex h-[52px] items-center gap-4 bg-navy-900 px-4 text-white">
+      <nav className="no-print sticky top-0 z-30 flex h-[52px] items-center gap-4 overflow-x-auto whitespace-nowrap bg-navy-900 px-4 text-white">
         <span className="text-[17px] font-bold tracking-wide">EXECUTIVE <span className="text-amber-400">STATUS</span></span>
         <div className="flex gap-1">
           {ROUTES.map((r) => (

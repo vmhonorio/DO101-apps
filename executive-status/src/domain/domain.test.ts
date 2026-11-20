@@ -109,8 +109,8 @@ describe('cabeçalhos e hierarquia', () => {
 });
 
 describe('planilha completa (flat + Parent, PT-BR, 3 abas, duplicado)', () => {
-  const s16 = load('samples/crm-sprint16-flat-parent.xlsx', 'Sprint 16', new Date('2026-10-10T02:27:00').toISOString());
-  const s15 = load('samples/crm-sprint15-flat-parent.xlsx', 'Sprint 15', new Date('2026-09-26T02:00:00').toISOString());
+  const s16 = load('public/samples/crm-sprint16-flat-parent.xlsx', 'Sprint 16', new Date('2026-10-10T02:27:00').toISOString());
+  const s15 = load('public/samples/crm-sprint15-flat-parent.xlsx', 'Sprint 15', new Date('2026-09-26T02:00:00').toISOString());
   const sprints = Array.from({ length: 17 }, (_, i) => {
     const st = new Date(Date.UTC(2026, 2, 2) + i * 14 * 86400000);
     const en = new Date(st.getTime() + 13 * 86400000);
@@ -172,7 +172,7 @@ describe('planilha completa (flat + Parent, PT-BR, 3 abas, duplicado)', () => {
 
 describe('outros formatos', () => {
   it('query em árvore, cabeçalhos EN, datas ISO', () => {
-    const s = load('samples/tree-query-en.xlsx', 'T', new Date('2026-10-10').toISOString());
+    const s = load('public/samples/tree-query-en.xlsx', 'T', new Date('2026-10-10').toISOString());
     expect(s.hierarchySource).toBe('tree');
     const m = computeReport(s, cfgFor(s));
     expect(m.kpi.epics).toBeGreaterThan(0);
@@ -180,7 +180,7 @@ describe('outros formatos', () => {
     expect(m.kpi.stale).not.toBeNull();
   });
   it('CSV mínimo: sem hierarquia/datas => N/D, Removed excluído, estados Agile', () => {
-    const s = load('samples/minimal-agile.csv', 'M', new Date().toISOString());
+    const s = load('public/samples/minimal-agile.csv', 'M', new Date().toISOString());
     expect(s.hierarchySource).toBe('none');
     const cfg = cfgFor(s);
     expect(cfg.stateRules['Active']).toMatchObject({ macro: 'desenvolvimento', category: 'inProgress' });

@@ -6,12 +6,13 @@ import { buildInsights } from '../domain/insights';
 import { computeReport, EMPTY_FILTERS, type Filters } from '../domain/metrics';
 import { fmtDate } from '../domain/format';
 import { useStore } from '../store';
+import { IS_ARTIFACT } from '../env';
 import { Button, Empty, Field, Input, Modal, Select } from '../ui/primitives';
 import { DrillDown } from '../ui/report/DrillDown';
 import { ExecutiveReport, REPORT_WIDTH, type DrillSpec, type SortMode } from '../ui/report/ExecutiveReport';
 
 export function ReportPage({ go }: { go: (r: string) => void }) {
-  const { snapshots, config, saveConfig, updateSnapshot } = useStore();
+  const { snapshots, config, saveConfig, updateSnapshot, loadDemo } = useStore();
   const [snapId, setSnapId] = useState<string>('');
   const [cmpId, setCmpId] = useState<string>('auto');
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
@@ -44,7 +45,7 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
   const [height, setHeight] = useState(1080);
   useLayoutEffect(() => {
     const ro = new ResizeObserver(() => {
-      if (wrap.current) setScale(Math.min(1, (wrap.current.clientWidth - 0) / REPORT_WIDTH));
+      if (wrap.current) setScale(Math.min(1, (wrap.current.clientWidth - 32) / REPORT_WIDTH));
       if (canvas.current) setHeight(canvas.current.offsetHeight);
     });
     if (wrap.current) ro.observe(wrap.current);
@@ -52,7 +53,7 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
     return () => ro.disconnect();
   }, [model]);
 
-  if (!snapshots.length || !snap) return <Empty title="Nenhuma planilha importada">Importe a exportação de uma Query do Azure DevOps para gerar o Status Executivo.<div className="mt-4"><Button onClick={() => go('import')}>Importar planilha</Button></div></Empty>;
+  if (!snapshots.length || !snap) return <Empty title="Nenhuma planilha importada">Importe a exportação de uma Query do Azure DevOps para gerar o Status Executivo, ou carregue o exemplo para conhecer o relatório.<div className="mt-4 flex justify-center gap-2"><Button onClick={() => go('import')}>Importar planilha</Button><Button variant="outline" onClick={() => void loadDemo()}>Carregar exemplo (dados fictícios)</Button></div></Empty>;
   if (!config || !model || !ins) return <p className="p-8 text-slate-500">Carregando…</p>;
 
   const frentes = [...new Set(model.allCards.map((c) => c.frente))].sort();
@@ -123,7 +124,7 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
           </Button>
           <label className="flex h-9 items-center gap-1.5 text-sm"><input type="checkbox" checked={highlight} onChange={(e) => setHighlight(e.target.checked)} /> Destacar críticos</label>
           <div className="ml-auto flex flex-wrap gap-2">
-            {config.ai.enabled && (
+            {config.ai.enabled && !IS_ARTIFACT && (
               <>
                 <Button variant="outline" onClick={() => void runAi()} disabled={aiBusy || filtered} title={filtered ? 'Remova os filtros para gerar a leitura do projeto inteiro' : ''}>
                   <Sparkles size={15} /> {aiBusy ? 'Gerando…' : snap.aiReading ? 'Regerar leitura (IA)' : 'Leitura com IA'}
@@ -131,9 +132,15 @@ export function ReportPage({ go }: { go: (r: string) => void }) {
                 {snap.aiReading && <label className="flex h-9 items-center gap-1.5 text-sm"><input type="checkbox" checked={useAi} onChange={(e) => setUseAi(e.target.checked)} /> Usar texto IA</label>}
               </>
             )}
-            <Button variant="outline" onClick={() => exportConsolidated(model, ins, reading.text)}><Download size={15} /> Excel consolidado</Button>
-            <Button variant="outline" onClick={print}><Printer size={15} /> Imprimir</Button>
-            <Button variant="navy" onClick={print}><FileText size={15} /> Exportar PDF</Button>
+            {IS_ARTIFACT ? (
+              <span className="max-w-xs text-xs text-slate-500">Versão online: PDF, impressão e Excel estão disponíveis na versão instalada (npm run dev).</span>
+            ) : (
+              <>
+                <Button variant="outline" onClick={() => exportConsolidated(model, ins, reading.text)}><Download size={15} /> Excel consolidado</Button>
+                <Button variant="outline" onClick={print}><Printer size={15} /> Imprimir</Button>
+                <Button variant="navy" onClick={print}><FileText size={15} /> Exportar PDF</Button>
+              </>
+            )}
           </div>
         </div>
         <div className="mt-2 flex flex-wrap items-end gap-2">

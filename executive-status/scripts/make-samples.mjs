@@ -4,7 +4,7 @@
 import * as XLSX from 'xlsx';
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-mkdirSync('samples', { recursive: true });
+mkdirSync('public/samples', { recursive: true });
 let seed = 42;
 const rnd = () => ((seed = (seed * 1664525 + 1013904223) % 4294967296) / 4294967296);
 const pick = (a) => a[Math.floor(rnd() * a.length)];
@@ -93,7 +93,10 @@ function flatBook(list, refLabel) {
   XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet([...meta, PT, ...cards.slice(half).map(toPt)]), 'Cards B'); // linha half duplicada
   return wb;
 }
-XLSX.writeFile(flatBook(rows, 'Sprint 16'), 'samples/crm-sprint16-flat-parent.xlsx');
+XLSX.writeFile(flatBook(rows, 'Sprint 16'), 'public/samples/crm-sprint16-flat-parent.xlsx');
+// cópias em CSV (uma tabela) usadas pelo botão "Carregar exemplo"
+const toCsv = (list) => XLSX.utils.sheet_to_csv(XLSX.utils.aoa_to_sheet([PT, ...list.map(toPt)]));
+writeFileSync('public/samples/exemplo-sprint16.csv', toCsv(rows));
 
 // ---------------------------------------- 2) snapshot anterior (Sprint 15, consolidado em 26/09)
 const PREV = new Date('2026-09-26T02:00:00');
@@ -112,7 +115,8 @@ const prevRows = rows
     }
     return x;
   });
-XLSX.writeFile(flatBook(prevRows, 'Sprint 15'), 'samples/crm-sprint15-flat-parent.xlsx');
+XLSX.writeFile(flatBook(prevRows, 'Sprint 15'), 'public/samples/crm-sprint15-flat-parent.xlsx');
+writeFileSync('public/samples/exemplo-sprint15.csv', toCsv(prevRows));
 
 // ---------------------------------------- 3) query em árvore (Title 1/2/3), cabeçalhos EN, sem Parent, poucos campos
 const tree = [['ID', 'Work Item Type', 'Title 1', 'Title 2', 'Title 3', 'State', 'Assigned To', 'Changed Date']];
@@ -131,10 +135,10 @@ const walk = (r, lvl) => {
 for (const r of rows.filter((x) => x.type === 'Epic').slice(0, 12)) walk(r, 0);
 const wbt = XLSX.utils.book_new();
 XLSX.utils.book_append_sheet(wbt, XLSX.utils.aoa_to_sheet(tree), 'Tree');
-XLSX.writeFile(wbt, 'samples/tree-query-en.xlsx');
+XLSX.writeFile(wbt, 'public/samples/tree-query-en.xlsx');
 
 // ---------------------------------------- 4) CSV mínimo (só campos obrigatórios, sem hierarquia), estados do processo Agile
 const AG = ['New', 'Active', 'Resolved', 'Closed', 'Removed'];
 const csv = [['ID', 'Work Item Type', 'Title', 'State'], ...Array.from({ length: 60 }, (_, i) => [5000 + i, i % 4 ? 'User Story' : 'Bug', `Story ${i}`, pick(AG)])];
-writeFileSync('samples/minimal-agile.csv', csv.map((r) => r.join(',')).join('\n'));
-console.log(`samples/: ${rows.length} itens (Sprint 16), ${prevRows.length} (Sprint 15), ${tree.length - 1} (árvore), 60 (csv)`);
+writeFileSync('public/samples/minimal-agile.csv', csv.map((r) => r.join(',')).join('\n'));
+console.log(`public/samples/: ${rows.length} itens (Sprint 16), ${prevRows.length} (Sprint 15), ${tree.length - 1} (árvore), 60 (csv)`);

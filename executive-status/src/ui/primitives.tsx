@@ -1,6 +1,7 @@
 // Componentes base no estilo shadcn/ui (Tailwind + Radix), mantidos locais para não depender do CLI.
 import * as Dialog from '@radix-ui/react-dialog';
 import { X } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import type { ButtonHTMLAttributes, InputHTMLAttributes, ReactNode, SelectHTMLAttributes } from 'react';
 import { cn } from './cn';
 
@@ -99,5 +100,21 @@ export function Empty({ title, children }: { title: string; children?: ReactNode
       <h2 className="text-lg font-bold text-navy-900">{title}</h2>
       <div className="mt-2 text-sm text-slate-600">{children}</div>
     </div>
+  );
+}
+
+/** Confirmação em dois cliques, dentro da página (não depende de window.confirm). */
+export function ConfirmButton({ onConfirm, children, confirmLabel = 'Confirmar?', className, title }: { onConfirm: () => void; children: ReactNode; confirmLabel?: string; className?: string; title?: string }) {
+  const [armed, setArmed] = useState(false);
+  useEffect(() => {
+    if (!armed) return;
+    const t = setTimeout(() => setArmed(false), 4000);
+    return () => clearTimeout(t);
+  }, [armed]);
+  return (
+    <button title={title} onClick={() => (armed ? (setArmed(false), onConfirm()) : setArmed(true))}
+      className={cn('inline-flex h-9 items-center gap-1.5 rounded-md px-2 text-sm font-semibold', armed ? 'bg-red-600 text-white' : 'hover:bg-slate-100', className)}>
+      {armed ? confirmLabel : children}
+    </button>
   );
 }

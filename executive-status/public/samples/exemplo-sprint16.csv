@@ -1,0 +1,751 @@
+"ID",Tipo de Item de Trabalho,Título,Estado,Atribuído a,Caminho da Área,Caminho da Iteração,Prioridade,Pai,Marcas,Data de Criação,Data de Alteração,Data de Fechamento,Data Alvo,Severidade
+1000,Epic,DÉBITOS TÉCNICOS,In Progress,,CRM\Cadastro,CRM,2,,,,,,07/11/2026,
+1001,Feature,Débitos Técnicos - parte 1,In Progress,,CRM\Cadastro,CRM,,1000,,,,,,
+1002,Bug,Corrigir item 1 de débitos técnicos,Para Testar,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1001,,11/09/2026 22:47,11/09/2026 22:47,,,2 - High
+1003,Product Backlog Item,Implementar item 2 de débitos técnicos,Em Ref. Técnico,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1001,,23/09/2026 06:29,23/09/2026 06:29,,,
+1004,Bug,Corrigir item 3 de débitos técnicos,New,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1001,,02/09/2026 00:57,02/09/2026 00:57,,,3 - Medium
+1005,Product Backlog Item,Implementar item 4 de débitos técnicos,Para PROD,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1001,,03/08/2026 08:49,21/08/2026 15:06,,,
+1006,Bug,Corrigir item 5 de débitos técnicos,Para Testar,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,1,1001,,19/08/2026 12:18,16/09/2026 08:49,,,3 - Medium
+1007,Product Backlog Item,Implementar item 6 de débitos técnicos,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1001,,30/09/2026 06:12,08/10/2026 20:02,08/10/2026 20:02,,
+1008,Product Backlog Item,Implementar item 7 de débitos técnicos,Em Homolog (UAT),Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,3,1001,,29/03/2026 20:38,13/07/2026 11:18,,,
+1009,Bug,Corrigir item 8 de débitos técnicos,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,3,1001,,22/06/2026 14:39,19/07/2026 06:36,19/07/2026 06:36,,3 - Medium
+1010,Bug,Corrigir item 9 de débitos técnicos,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,2,1001,,20/04/2026 17:04,25/07/2026 09:55,,,2 - High
+1011,Product Backlog Item,Implementar item 10 de débitos técnicos,Aguardando Deploy UAT,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1001,,24/07/2026 09:20,23/08/2026 18:33,,,
+1012,Epic,ACESSAR SERVIÇO DE CADASTRO,Done,,CRM\Cadastro,CRM,1,,,,,,,
+1013,Feature,Acessar serviço de cadastro - parte 1,In Progress,,CRM\Cadastro,CRM,,1012,,,,,,
+1014,Product Backlog Item,Implementar item 1 de acessar serviço de cadastro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,2,1013,,04/09/2026 14:53,11/09/2026 15:08,11/09/2026 15:08,,
+1015,Bug,Corrigir item 2 de acessar serviço de cadastro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,2,1013,,30/05/2026 02:27,24/08/2026 06:48,24/08/2026 06:48,,3 - Medium
+1016,Product Backlog Item,Implementar item 3 de acessar serviço de cadastro,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,1,1013,,04/08/2026 08:01,13/09/2026 15:10,13/09/2026 15:10,,
+1017,Product Backlog Item,Implementar item 4 de acessar serviço de cadastro,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,4,1013,,25/09/2026 19:43,08/10/2026 23:18,08/10/2026 23:18,,
+1018,Product Backlog Item,Implementar item 5 de acessar serviço de cadastro,Done,,CRM\Cadastro,CRM\Sprint 9,3,1013,,06/03/2026 15:46,02/07/2026 07:21,02/07/2026 07:21,,
+1019,Product Backlog Item,Implementar item 6 de acessar serviço de cadastro,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,3,1013,,05/08/2026 20:54,26/08/2026 00:21,26/08/2026 00:21,,
+1020,Bug,Corrigir item 7 de acessar serviço de cadastro,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1013,,15/05/2026 16:32,05/09/2026 15:48,05/09/2026 15:48,,3 - Medium
+1021,Feature,Acessar serviço de cadastro - parte 2,In Progress,,CRM\Cadastro,CRM,,1012,,,,,,
+1022,Product Backlog Item,Implementar item 1 de acessar serviço de cadastro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,3,1021,,28/07/2026 00:31,15/08/2026 21:30,15/08/2026 21:30,,
+1023,Bug,Corrigir item 2 de acessar serviço de cadastro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1021,,05/09/2026 09:39,06/10/2026 18:35,06/10/2026 18:35,,4 - Low
+1024,Product Backlog Item,Implementar item 3 de acessar serviço de cadastro,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,3,1021,,17/07/2026 13:08,22/07/2026 03:54,22/07/2026 03:54,,
+1025,Bug,Corrigir item 4 de acessar serviço de cadastro,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1021,,14/08/2026 17:01,06/10/2026 17:54,06/10/2026 17:54,,3 - Medium
+1026,Product Backlog Item,Implementar item 5 de acessar serviço de cadastro,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,1,1021,,07/03/2026 19:59,13/07/2026 08:11,13/07/2026 08:11,,
+1027,Bug,Corrigir item 6 de acessar serviço de cadastro,Done,,CRM\Cadastro,CRM\Sprint 11,2,1021,,27/04/2026 04:53,29/07/2026 04:50,29/07/2026 04:50,,1 - Critical
+1028,Product Backlog Item,Implementar item 7 de acessar serviço de cadastro,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,4,1021,,20/05/2026 14:58,29/06/2026 11:42,29/06/2026 11:42,,
+1029,Epic,DADOS PESSOAIS,In Progress,,CRM\Cadastro,CRM,3,,,,,,,
+1030,Feature,Dados pessoais - parte 1,In Progress,,CRM\Cadastro,CRM,,1029,,,,,,
+1031,Bug,Corrigir item 1 de dados pessoais,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 8,2,1030,,22/04/2026 01:46,19/06/2026 15:08,19/06/2026 15:08,,1 - Critical
+1032,Product Backlog Item,Implementar item 2 de dados pessoais,Aguardando Deploy QA,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,4,1030,,05/05/2026 01:39,21/07/2026 17:45,,,
+1033,Bug,Corrigir item 3 de dados pessoais,Em Homolog (UAT),Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1030,,27/08/2026 02:26,22/09/2026 06:54,,,2 - High
+1034,Product Backlog Item,Implementar item 4 de dados pessoais,Para QA,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,3,1030,,12/03/2026 16:55,24/06/2026 23:28,,,
+1035,Product Backlog Item,Implementar item 5 de dados pessoais,Pronto para Desenvolvimento,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,4,1030,,06/07/2026 12:22,12/07/2026 07:01,,,
+1036,Bug,Corrigir item 6 de dados pessoais,Em Homolog (UAT),Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,4,1030,,23/08/2026 07:20,30/09/2026 01:09,,,3 - Medium
+1037,Product Backlog Item,Implementar item 7 de dados pessoais,Para UAT,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1030,,17/08/2026 23:41,13/09/2026 21:40,,,
+1038,Feature,Dados pessoais - parte 2,In Progress,,CRM\Cadastro,CRM,,1029,,,,,,
+1039,Product Backlog Item,Implementar item 1 de dados pessoais,Code Review,,CRM\Cadastro,CRM\Sprint 15,4,1038,,31/03/2026 23:49,14/09/2026 18:24,,,
+1040,Product Backlog Item,Implementar item 2 de dados pessoais,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 8,4,1038,,05/06/2026 19:18,19/06/2026 02:25,19/06/2026 02:25,,
+1041,Product Backlog Item,Implementar item 3 de dados pessoais,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1038,,11/07/2026 05:33,14/09/2026 16:57,14/09/2026 16:57,,
+1042,Product Backlog Item,Implementar item 4 de dados pessoais,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1038,,18/08/2026 06:11,02/10/2026 20:40,02/10/2026 20:40,,
+1043,Feature,Dados pessoais - parte 3,In Progress,,CRM\Cadastro,CRM,,1029,,,,,,
+1044,Product Backlog Item,Implementar item 1 de dados pessoais,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1043,,27/08/2026 11:48,29/08/2026 15:31,29/08/2026 15:31,,
+1045,Product Backlog Item,Implementar item 2 de dados pessoais,Para UAT,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1043,,10/03/2026 02:59,09/09/2026 15:00,,,
+1046,Bug,Corrigir item 3 de dados pessoais,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1043,,31/08/2026 04:55,09/09/2026 17:10,09/09/2026 17:10,,3 - Medium
+1047,Product Backlog Item,Implementar item 4 de dados pessoais,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1043,,17/08/2026 11:07,14/09/2026 00:40,14/09/2026 00:40,,
+1048,Bug,Corrigir item 5 de dados pessoais,Para Testar,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,3,1043,,22/06/2026 17:02,28/08/2026 20:15,,,4 - Low
+1049,Product Backlog Item,Implementar item 6 de dados pessoais,Aguardando Deploy QA,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1043,,26/07/2026 18:15,17/09/2026 09:19,,,
+1050,Bug,Corrigir item 7 de dados pessoais,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1043,,06/08/2026 02:09,21/08/2026 13:37,,,3 - Medium
+1051,Product Backlog Item,Implementar item 8 de dados pessoais,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 5,1,1043,,30/04/2026 19:34,07/05/2026 08:38,07/05/2026 08:38,,
+1052,Epic,ENDEREÇO,In Progress,,CRM\Cadastro,CRM,2,,,,,,,
+1053,Feature,Endereço - parte 1,In Progress,,CRM\Cadastro,CRM,,1052,,,,,,
+1054,Product Backlog Item,Implementar item 1 de endereço,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1053,,12/09/2026 00:29,28/09/2026 19:23,28/09/2026 19:23,,
+1055,Bug,Corrigir item 2 de endereço,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1053,,14/06/2026 19:28,09/10/2026 07:14,09/10/2026 07:14,,4 - Low
+1056,Product Backlog Item,Implementar item 3 de endereço,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1053,,01/09/2026 01:57,16/09/2026 08:26,16/09/2026 08:26,,
+1057,Bug,Corrigir item 4 de endereço,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1053,,30/06/2026 22:56,07/10/2026 17:00,07/10/2026 17:00,,1 - Critical
+1058,Product Backlog Item,Implementar item 5 de endereço,Em Ref. Técnico,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1053,,07/10/2026 20:54,07/10/2026 20:54,,,
+1059,Product Backlog Item,Implementar item 6 de endereço,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,1,1053,,31/07/2026 06:03,12/09/2026 13:18,12/09/2026 13:18,,
+1060,Bug,Corrigir item 7 de endereço,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1053,,12/08/2026 20:54,28/09/2026 09:59,28/09/2026 09:59,,1 - Critical
+1061,Bug,Corrigir item 8 de endereço,Em Homolog (UAT),Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1053,,11/03/2026 21:21,03/09/2026 07:26,,,1 - Critical
+1062,Bug,Corrigir item 9 de endereço,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1053,,23/09/2026 16:29,28/09/2026 21:56,28/09/2026 21:56,,1 - Critical
+1063,Feature,Endereço - parte 2,In Progress,,CRM\Cadastro,CRM,,1052,,,,,,
+1064,Product Backlog Item,Implementar item 1 de endereço,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,4,1063,,22/05/2026 16:44,28/05/2026 21:11,28/05/2026 21:11,,
+1065,Product Backlog Item,Implementar item 2 de endereço,Backlog para Refinamento,,CRM\Cadastro,CRM\Sprint 15,1,1063,,18/09/2026 15:16,18/09/2026 15:16,,,
+1066,Product Backlog Item,Implementar item 3 de endereço,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1063,,09/10/2026 06:13,09/10/2026 18:19,09/10/2026 18:19,,
+1067,Product Backlog Item,Implementar item 4 de endereço,Em Testes (QA),Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1063,,29/03/2026 15:10,25/08/2026 22:20,,,
+1068,Product Backlog Item,Implementar item 5 de endereço,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 8,3,1063,,05/06/2026 12:14,14/06/2026 10:36,14/06/2026 10:36,,
+1069,Product Backlog Item,Implementar item 6 de endereço,Para PROD,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,4,1063,,14/03/2026 19:41,23/07/2026 08:32,,,
+1070,Product Backlog Item,Implementar item 7 de endereço,Aguardando Deploy UAT,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,3,1063,,29/03/2026 12:59,20/08/2026 13:53,,,
+1071,Feature,Endereço - parte 3,In Progress,,CRM\Cadastro,CRM,,1052,,,,,,
+1072,Product Backlog Item,Implementar item 1 de endereço,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,4,1071,,09/05/2026 16:13,22/07/2026 07:52,22/07/2026 07:52,,
+1073,Product Backlog Item,Implementar item 2 de endereço,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1071,,12/07/2026 13:57,19/09/2026 23:56,19/09/2026 23:56,,
+1074,Product Backlog Item,Implementar item 3 de endereço,Code Review,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1071,,16/05/2026 06:33,01/09/2026 13:40,,,
+1075,Product Backlog Item,Implementar item 4 de endereço,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,4,1071,,29/05/2026 04:32,10/08/2026 21:39,10/08/2026 21:39,,
+1076,Product Backlog Item,Implementar item 5 de endereço,Para QA,,CRM\Cadastro,CRM\Sprint 15,3,1071,,05/05/2026 16:45,24/09/2026 03:18,,,
+1077,Bug,Corrigir item 6 de endereço,Para Testar,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,4,1071,,01/08/2026 18:16,04/08/2026 11:20,,,3 - Medium
+1078,Product Backlog Item,Implementar item 7 de endereço,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1071,,20/09/2026 15:52,03/10/2026 05:00,03/10/2026 05:00,,
+1079,Bug,Corrigir item 8 de endereço,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,1,1071,,02/08/2026 17:06,14/09/2026 04:02,,,1 - Critical
+1080,Product Backlog Item,Implementar item 9 de endereço,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1071,,09/06/2026 14:47,06/10/2026 10:10,06/10/2026 10:10,,
+1081,Product Backlog Item,Implementar item 10 de endereço,Em Homolog (UAT),,CRM\Cadastro,CRM\Sprint 15,4,1071,,20/09/2026 11:12,20/09/2026 11:12,,,
+1082,Product Backlog Item,Implementar item 11 de endereço,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,2,1071,,29/06/2026 17:04,14/08/2026 22:25,14/08/2026 22:25,,
+1083,Bug,Corrigir item 12 de endereço,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1071,,21/08/2026 19:36,21/08/2026 19:36,,,3 - Medium
+1084,Product Backlog Item,Implementar item 13 de endereço,Code Review,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,3,1071,,20/04/2026 14:25,06/07/2026 19:41,,,
+1085,Product Backlog Item,Implementar item 14 de endereço,Em Ref. Técnico,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,2,1071,,20/05/2026 21:22,23/06/2026 03:02,,,
+1086,Product Backlog Item,Implementar item 15 de endereço,Code Review,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1071,,28/06/2026 08:13,23/09/2026 19:24,,,
+1087,Product Backlog Item,Implementar item 16 de endereço,Aguardando Deploy QA,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,3,1071,,17/06/2026 22:22,20/07/2026 21:00,,,
+1088,Product Backlog Item,Implementar item 17 de endereço,Para PROD,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,1,1071,,11/07/2026 21:36,01/08/2026 20:48,,,
+1089,Product Backlog Item,Implementar item 18 de endereço,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,2,1071,,26/04/2026 02:20,27/05/2026 18:33,27/05/2026 18:33,,
+1090,Product Backlog Item,Implementar item 19 de endereço,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1071,,13/05/2026 15:08,22/09/2026 21:00,22/09/2026 21:00,,
+1091,Product Backlog Item,Implementar item 20 de endereço,Para QA,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1071,,23/09/2026 23:11,23/09/2026 23:11,,,
+1092,Feature,Endereço - parte 4,In Progress,,CRM\Cadastro,CRM,,1052,,,,,,
+1093,Product Backlog Item,Implementar item 1 de endereço,Para QA,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1092,,11/05/2026 14:14,21/09/2026 22:55,,,
+1094,Product Backlog Item,Implementar item 2 de endereço,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1092,,27/09/2026 23:49,05/10/2026 14:56,05/10/2026 14:56,,
+1095,Bug,Corrigir item 3 de endereço,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,3,1092,,03/07/2026 22:32,24/07/2026 18:45,,,3 - Medium
+1096,Product Backlog Item,Implementar item 4 de endereço,Para PROD,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,1,1092,,25/09/2026 11:33,25/09/2026 11:33,,,
+1097,Bug,Corrigir item 5 de endereço,Para Testar,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1092,,08/07/2026 09:40,02/10/2026 01:47,,,4 - Low
+1098,Product Backlog Item,Implementar item 6 de endereço,Para UAT,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1092,,06/10/2026 12:44,06/10/2026 12:44,,,
+1099,Product Backlog Item,Implementar item 7 de endereço,Aguardando Deploy QA,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1092,,22/09/2026 18:31,22/09/2026 18:31,,,
+1100,Bug,Corrigir item 8 de endereço,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1092,,16/09/2026 18:23,03/10/2026 20:48,03/10/2026 20:48,,3 - Medium
+1101,Epic,CONTATO,In Progress,,CRM\Cadastro,CRM,3,,,,,,01/12/2026,
+1102,Feature,Contato - parte 1,In Progress,,CRM\Cadastro,CRM,,1101,,,,,,
+1103,Product Backlog Item,Implementar item 1 de contato,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,1,1102,,15/08/2026 00:22,23/09/2026 17:13,23/09/2026 17:13,,
+1104,Bug,Corrigir item 2 de contato,Para Testar,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,3,1102,,28/03/2026 02:49,17/07/2026 19:26,,,1 - Critical
+1105,Bug,Corrigir item 3 de contato,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1102,,23/08/2026 06:17,08/10/2026 20:03,08/10/2026 20:03,,3 - Medium
+1106,Product Backlog Item,Implementar item 4 de contato,Done,,CRM\Cadastro,CRM\Sprint 16,1,1102,,29/09/2026 06:08,03/10/2026 14:32,03/10/2026 14:32,,
+1107,Product Backlog Item,Implementar item 5 de contato,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1102,,05/10/2026 19:15,09/10/2026 05:00,09/10/2026 05:00,,
+1108,Bug,Corrigir item 6 de contato,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1102,,25/05/2026 00:05,23/08/2026 15:48,23/08/2026 15:48,,3 - Medium
+1109,Product Backlog Item,Implementar item 7 de contato,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,3,1102,,11/05/2026 13:46,02/06/2026 00:43,02/06/2026 00:43,,
+1110,Product Backlog Item,Implementar item 8 de contato,Para UAT,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,2,1102,,01/04/2026 17:51,01/09/2026 23:27,,,
+1111,Product Backlog Item,Implementar item 9 de contato,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 6,4,1102,,23/04/2026 09:57,16/05/2026 23:13,16/05/2026 23:13,,
+1112,Bug,Corrigir item 10 de contato,Done,,CRM\Cadastro,CRM\Sprint 12,1,1102,,21/04/2026 17:43,05/08/2026 02:27,05/08/2026 02:27,,3 - Medium
+1113,Product Backlog Item,Implementar item 11 de contato,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,1,1102,,06/07/2026 10:40,03/08/2026 10:59,03/08/2026 10:59,,
+1114,Product Backlog Item,Implementar item 12 de contato,Aguardando Deploy UAT,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,4,1102,,05/04/2026 07:28,28/09/2026 21:01,,,
+1115,Bug,Corrigir item 13 de contato,Em desenvolvimento,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1102,,14/08/2026 14:39,06/10/2026 09:34,,,3 - Medium
+1116,Bug,Corrigir item 14 de contato,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1102,,28/05/2026 15:33,12/09/2026 16:25,12/09/2026 16:25,,3 - Medium
+1117,Product Backlog Item,Implementar item 15 de contato,Done,,CRM\Cadastro,CRM\Sprint 13,1,1102,,23/03/2026 12:45,30/08/2026 20:55,30/08/2026 20:55,,
+1118,Product Backlog Item,Implementar item 16 de contato,Em Testes (QA),Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1102,,17/09/2026 03:40,17/09/2026 03:40,,,
+1119,Bug,Corrigir item 17 de contato,Done,,CRM\Cadastro,CRM\Sprint 10,3,1102,,31/05/2026 14:30,09/07/2026 08:45,09/07/2026 08:45,,3 - Medium
+1120,Feature,Contato - parte 2,In Progress,,CRM\Cadastro,CRM,,1101,,,,,,
+1121,Bug,Corrigir item 1 de contato,Bloqueado,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,2,1120,,04/09/2026 14:44,04/09/2026 14:44,,,3 - Medium
+1122,Product Backlog Item,Implementar item 2 de contato,Backlog para Refinamento,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1120,,11/05/2026 08:39,27/09/2026 03:49,,,
+1123,Product Backlog Item,Implementar item 3 de contato,Em Ref. Técnico,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1120,,27/09/2026 16:35,27/09/2026 16:35,,,
+1124,Product Backlog Item,Implementar item 4 de contato,Aguardando Deploy QA,,CRM\Cadastro,CRM\Sprint 11,1,1120,,24/06/2026 04:54,01/08/2026 16:11,,,
+1125,Feature,Contato - parte 3,In Progress,,CRM\Cadastro,CRM,,1101,,,,,,
+1126,Product Backlog Item,Implementar item 1 de contato,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,2,1125,,16/05/2026 19:36,22/07/2026 08:29,22/07/2026 08:29,,
+1127,Product Backlog Item,Implementar item 2 de contato,UX,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,4,1125,,23/03/2026 12:52,26/06/2026 02:04,,,
+1128,Bug,Corrigir item 3 de contato,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,3,1125,,15/07/2026 15:31,20/08/2026 01:46,20/08/2026 01:46,,3 - Medium
+1129,Product Backlog Item,Implementar item 4 de contato,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1125,,28/06/2026 00:52,26/08/2026 10:23,26/08/2026 10:23,,
+1130,Product Backlog Item,Implementar item 5 de contato,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1125,,04/09/2026 08:49,08/09/2026 21:40,08/09/2026 21:40,,
+1131,Product Backlog Item,Implementar item 6 de contato,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,2,1125,,01/07/2026 21:21,02/09/2026 15:23,02/09/2026 15:23,,
+1132,Bug,Corrigir item 7 de contato,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,4,1125,,07/04/2026 12:02,23/06/2026 20:38,23/06/2026 20:38,,1 - Critical
+1133,Product Backlog Item,Implementar item 8 de contato,Para PROD,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,3,1125,bloqueado,30/04/2026 22:07,06/07/2026 15:25,,,
+1134,Product Backlog Item,Implementar item 9 de contato,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 2,4,1125,,09/03/2026 09:55,22/03/2026 00:27,22/03/2026 00:27,,
+1135,Bug,Corrigir item 10 de contato,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1125,,10/08/2026 02:05,25/08/2026 13:51,25/08/2026 13:51,,3 - Medium
+1136,Product Backlog Item,Implementar item 11 de contato,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1125,,02/08/2026 02:53,20/08/2026 08:25,20/08/2026 08:25,,
+1137,Product Backlog Item,Implementar item 12 de contato,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1125,,19/07/2026 15:54,27/08/2026 15:16,27/08/2026 15:16,,
+1138,Bug,Corrigir item 13 de contato,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1125,,08/10/2026 11:14,08/10/2026 11:14,,,3 - Medium
+1139,Epic,SAÚDE,In Progress,,CRM\Cadastro,CRM,2,,,,,,,
+1140,Feature,Saúde - parte 1,In Progress,,CRM\Cadastro,CRM,,1139,,,,,,
+1141,Product Backlog Item,Implementar item 1 de saúde,Done,,CRM\Cadastro,CRM\Sprint 15,2,1140,,24/05/2026 06:36,26/09/2026 07:11,26/09/2026 07:11,,
+1142,Bug,Corrigir item 2 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1140,,21/06/2026 15:22,12/09/2026 14:05,12/09/2026 14:05,,4 - Low
+1143,Bug,Corrigir item 3 de saúde,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,2,1140,,19/07/2026 22:09,03/08/2026 21:50,03/08/2026 21:50,,4 - Low
+1144,Product Backlog Item,Implementar item 4 de saúde,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,1,1140,,05/07/2026 06:12,23/09/2026 15:30,23/09/2026 15:30,,
+1145,Product Backlog Item,Implementar item 5 de saúde,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1140,,07/08/2026 02:29,09/10/2026 18:29,09/10/2026 18:29,,
+1146,Product Backlog Item,Implementar item 6 de saúde,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 5,2,1140,,05/04/2026 17:02,27/04/2026 08:39,27/04/2026 08:39,,
+1147,Bug,Corrigir item 7 de saúde,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,2,1140,,03/08/2026 14:02,26/08/2026 02:34,26/08/2026 02:34,,3 - Medium
+1148,Bug,Corrigir item 8 de saúde,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1140,,18/03/2026 09:01,29/08/2026 10:51,29/08/2026 10:51,,3 - Medium
+1149,Bug,Corrigir item 9 de saúde,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1140,,05/10/2026 01:08,06/10/2026 00:26,06/10/2026 00:26,,1 - Critical
+1150,Product Backlog Item,Implementar item 10 de saúde,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1140,,28/06/2026 16:25,01/09/2026 02:14,01/09/2026 02:14,,
+1151,Product Backlog Item,Implementar item 11 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,1,1140,,31/07/2026 02:44,15/08/2026 05:07,15/08/2026 05:07,,
+1152,Bug,Corrigir item 12 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1140,,10/09/2026 00:00,08/10/2026 18:18,08/10/2026 18:18,,3 - Medium
+1153,Product Backlog Item,Implementar item 13 de saúde,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,4,1140,,30/09/2026 18:16,04/10/2026 23:47,04/10/2026 23:47,,
+1154,Product Backlog Item,Implementar item 14 de saúde,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,4,1140,,18/05/2026 15:58,28/05/2026 01:55,28/05/2026 01:55,,
+1155,Bug,Corrigir item 15 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,3,1140,,27/06/2026 21:30,28/06/2026 04:58,28/06/2026 04:58,,4 - Low
+1156,Bug,Corrigir item 16 de saúde,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,2,1140,,11/06/2026 18:46,18/08/2026 13:13,18/08/2026 13:13,,3 - Medium
+1157,Product Backlog Item,Implementar item 17 de saúde,Em Homolog (UAT),Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,2,1140,,14/08/2026 05:39,05/09/2026 11:44,,,
+1158,Product Backlog Item,Implementar item 18 de saúde,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 8,1,1140,,26/03/2026 16:30,21/06/2026 09:21,21/06/2026 09:21,,
+1159,Product Backlog Item,Implementar item 19 de saúde,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1140,,30/08/2026 00:41,16/09/2026 23:05,16/09/2026 23:05,,
+1160,Product Backlog Item,Implementar item 20 de saúde,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,4,1140,,22/09/2026 10:33,29/09/2026 17:38,29/09/2026 17:38,,
+1161,Bug,Corrigir item 21 de saúde,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1140,,06/06/2026 12:40,23/08/2026 12:37,23/08/2026 12:37,,4 - Low
+1162,Feature,Saúde - parte 2,In Progress,,CRM\Cadastro,CRM,,1139,,,,,,
+1163,Product Backlog Item,Implementar item 1 de saúde,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1162,,13/09/2026 20:40,26/09/2026 10:08,26/09/2026 10:08,,
+1164,Product Backlog Item,Implementar item 2 de saúde,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,4,1162,,18/08/2026 10:43,11/09/2026 14:21,11/09/2026 14:21,,
+1165,Feature,Saúde - parte 3,In Progress,,CRM\Cadastro,CRM,,1139,,,,,,
+1166,Bug,Corrigir item 1 de saúde,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1165,,23/09/2026 22:40,30/09/2026 18:26,,,1 - Critical
+1167,Product Backlog Item,Implementar item 2 de saúde,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1165,,07/09/2026 02:55,07/09/2026 18:42,07/09/2026 18:42,,
+1168,Product Backlog Item,Implementar item 3 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,2,1165,,16/05/2026 16:57,01/06/2026 22:29,01/06/2026 22:29,,
+1169,Product Backlog Item,Implementar item 4 de saúde,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1165,,01/10/2026 10:40,02/10/2026 01:07,02/10/2026 01:07,,
+1170,Product Backlog Item,Implementar item 5 de saúde,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1165,,13/09/2026 17:00,22/09/2026 18:39,22/09/2026 18:39,,
+1171,Product Backlog Item,Implementar item 6 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 6,3,1165,,14/05/2026 15:09,15/05/2026 04:47,15/05/2026 04:47,,
+1172,Product Backlog Item,Implementar item 7 de saúde,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,1,1165,,09/08/2026 08:45,22/09/2026 21:02,22/09/2026 21:02,,
+1173,Product Backlog Item,Implementar item 8 de saúde,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1165,,03/08/2026 22:09,19/09/2026 03:04,19/09/2026 03:04,,
+1174,Product Backlog Item,Implementar item 9 de saúde,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1165,,20/06/2026 01:51,28/09/2026 15:19,28/09/2026 15:19,,
+1175,Product Backlog Item,Implementar item 10 de saúde,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,4,1165,,05/07/2026 05:08,23/07/2026 05:05,23/07/2026 05:05,,
+1176,Bug,Corrigir item 11 de saúde,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,3,1165,,24/04/2026 06:22,15/08/2026 19:06,15/08/2026 19:06,,3 - Medium
+1177,Bug,Corrigir item 12 de saúde,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1165,,29/03/2026 06:04,13/09/2026 09:42,13/09/2026 09:42,,1 - Critical
+1178,Product Backlog Item,Implementar item 13 de saúde,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1165,,05/10/2026 16:01,08/10/2026 00:20,08/10/2026 00:20,,
+1179,Bug,Corrigir item 14 de saúde,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,3,1165,,17/06/2026 18:00,23/08/2026 05:49,,,4 - Low
+1180,Bug,Corrigir item 15 de saúde,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1165,,12/04/2026 23:56,01/09/2026 19:55,01/09/2026 19:55,,2 - High
+1181,Epic,RESPONSÁVEL FINANCEIRO,In Progress,,CRM\Cadastro,CRM,3,,,,,,,
+1182,Feature,Responsável financeiro - parte 1,In Progress,,CRM\Cadastro,CRM,,1181,,,,,,
+1183,Bug,Corrigir item 1 de responsável financeiro,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 8,1,1182,,29/05/2026 08:57,09/06/2026 05:21,09/06/2026 05:21,,2 - High
+1184,Product Backlog Item,Implementar item 2 de responsável financeiro,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1182,,28/04/2026 07:07,26/08/2026 04:34,26/08/2026 04:34,,
+1185,Product Backlog Item,Implementar item 3 de responsável financeiro,Em Homolog (UAT),Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1182,,15/05/2026 04:03,24/09/2026 21:39,,,
+1186,Product Backlog Item,Implementar item 4 de responsável financeiro,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,1,1182,,28/07/2026 19:59,06/08/2026 13:26,06/08/2026 13:26,,
+1187,Product Backlog Item,Implementar item 5 de responsável financeiro,Em Testes (QA),Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1182,,22/04/2026 05:09,24/08/2026 14:52,,,
+1188,Product Backlog Item,Implementar item 6 de responsável financeiro,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 12,4,1182,,11/08/2026 12:14,11/08/2026 12:14,,,
+1189,Bug,Corrigir item 7 de responsável financeiro,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,4,1182,,04/09/2026 01:47,06/10/2026 03:41,06/10/2026 03:41,,3 - Medium
+1190,Product Backlog Item,Implementar item 8 de responsável financeiro,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 5,2,1182,,07/03/2026 13:16,01/05/2026 09:06,01/05/2026 09:06,,
+1191,Product Backlog Item,Implementar item 9 de responsável financeiro,Para PROD,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,4,1182,,06/03/2026 07:18,30/08/2026 00:23,,,
+1192,Product Backlog Item,Implementar item 10 de responsável financeiro,Aguardando Deploy QA,,CRM\Cadastro,CRM\Sprint 13,1,1182,,22/04/2026 04:56,18/08/2026 19:59,,,
+1193,Feature,Responsável financeiro - parte 2,In Progress,,CRM\Cadastro,CRM,,1181,,,,,,
+1194,Product Backlog Item,Implementar item 1 de responsável financeiro,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1193,,08/10/2026 06:17,09/10/2026 19:52,09/10/2026 19:52,,
+1195,Product Backlog Item,Implementar item 2 de responsável financeiro,Done,,CRM\Cadastro,CRM\Sprint 16,2,1193,,16/09/2026 09:56,29/09/2026 10:22,29/09/2026 10:22,,
+1196,Product Backlog Item,Implementar item 3 de responsável financeiro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,3,1193,,11/03/2026 17:20,27/05/2026 15:13,27/05/2026 15:13,,
+1197,Product Backlog Item,Implementar item 4 de responsável financeiro,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1193,,18/05/2026 07:20,10/09/2026 03:40,10/09/2026 03:40,,
+1198,Product Backlog Item,Implementar item 5 de responsável financeiro,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,1,1193,,22/06/2026 03:12,09/09/2026 15:36,09/09/2026 15:36,,
+1199,Product Backlog Item,Implementar item 6 de responsável financeiro,Para UAT,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,2,1193,,08/07/2026 08:53,17/07/2026 07:02,,,
+1200,Product Backlog Item,Implementar item 7 de responsável financeiro,Done,,CRM\Cadastro,CRM\Sprint 16,3,1193,,09/09/2026 01:33,05/10/2026 18:53,05/10/2026 18:53,,
+1201,Product Backlog Item,Implementar item 8 de responsável financeiro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 9,2,1193,,04/04/2026 10:43,22/06/2026 02:58,22/06/2026 02:58,,
+1202,Feature,Responsável financeiro - parte 3,In Progress,,CRM\Cadastro,CRM,,1181,,,,,,
+1203,Product Backlog Item,Implementar item 1 de responsável financeiro,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1202,,18/07/2026 09:00,17/09/2026 10:35,17/09/2026 10:35,,
+1204,Bug,Corrigir item 2 de responsável financeiro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,2,1202,,20/05/2026 03:56,12/07/2026 15:39,12/07/2026 15:39,,1 - Critical
+1205,Feature,Responsável financeiro - parte 4,In Progress,,CRM\Cadastro,CRM,,1181,,,,,,
+1206,Bug,Corrigir item 1 de responsável financeiro,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,1,1205,,16/03/2026 03:39,30/07/2026 05:23,30/07/2026 05:23,,4 - Low
+1207,Product Backlog Item,Implementar item 2 de responsável financeiro,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 4,4,1205,,24/04/2026 11:41,25/04/2026 19:56,25/04/2026 19:56,,
+1208,Product Backlog Item,Implementar item 3 de responsável financeiro,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1205,,16/08/2026 18:43,08/09/2026 00:32,08/09/2026 00:32,,
+1209,Product Backlog Item,Implementar item 4 de responsável financeiro,Para Testar,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1205,,03/05/2026 16:13,03/09/2026 08:02,,,
+1210,Bug,Corrigir item 5 de responsável financeiro,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,3,1205,,20/03/2026 00:04,24/08/2026 06:38,,,1 - Critical
+1211,Product Backlog Item,Implementar item 6 de responsável financeiro,Done,Carla Dias <carla@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,3,1205,,22/09/2026 12:24,06/10/2026 01:08,06/10/2026 01:08,,
+1212,Bug,Corrigir item 7 de responsável financeiro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1205,,21/09/2026 10:23,26/09/2026 20:35,26/09/2026 20:35,,3 - Medium
+1213,Product Backlog Item,Implementar item 8 de responsável financeiro,Done,,CRM\Cadastro,CRM\Sprint 14,2,1205,,28/08/2026 20:10,06/09/2026 11:00,06/09/2026 11:00,,
+1214,Bug,Corrigir item 9 de responsável financeiro,Done,Diego Rocha <diego@exemplo.com>,CRM\Cadastro,CRM\Sprint 11,2,1205,,05/07/2026 21:53,01/08/2026 15:44,01/08/2026 15:44,,4 - Low
+1215,Product Backlog Item,Implementar item 10 de responsável financeiro,Para PROD,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,2,1205,,25/08/2026 01:28,25/08/2026 01:28,,,
+1216,Product Backlog Item,Implementar item 11 de responsável financeiro,Para Testar,Fábio Nunes <fábio@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1205,,12/06/2026 03:15,08/09/2026 07:42,,,
+1217,Bug,Corrigir item 12 de responsável financeiro,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 13,1,1205,,20/03/2026 21:47,30/08/2026 10:34,30/08/2026 10:34,,3 - Medium
+1218,Product Backlog Item,Implementar item 13 de responsável financeiro,Done,Elisa Prado <elisa@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,3,1205,,16/08/2026 23:42,26/09/2026 04:07,26/09/2026 04:07,,
+1219,Product Backlog Item,Implementar item 14 de responsável financeiro,Done,Hugo Melo <hugo@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1205,,12/08/2026 12:16,27/09/2026 22:21,27/09/2026 22:21,,
+1220,Product Backlog Item,Implementar item 15 de responsável financeiro,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 7,1,1205,,30/04/2026 15:38,07/06/2026 17:05,07/06/2026 17:05,,
+1221,Product Backlog Item,Implementar item 16 de responsável financeiro,Em Testes (QA),,CRM\Cadastro,CRM\Sprint 11,4,1205,bloqueado,05/06/2026 15:20,22/07/2026 06:55,,,
+1222,Product Backlog Item,Implementar item 17 de responsável financeiro,Bloqueado,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,1,1205,,07/09/2026 04:00,07/10/2026 22:17,,,
+1223,Product Backlog Item,Implementar item 18 de responsável financeiro,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 16,2,1205,,03/09/2026 06:21,09/10/2026 18:35,09/10/2026 18:35,,
+1224,Product Backlog Item,Implementar item 19 de responsável financeiro,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 4,3,1205,,25/03/2026 18:28,22/04/2026 02:19,22/04/2026 02:19,,
+1225,Product Backlog Item,Implementar item 20 de responsável financeiro,Para Testar,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,4,1205,,22/04/2026 00:21,21/09/2026 00:28,,,
+1226,Bug,Corrigir item 21 de responsável financeiro,Done,Bruno Lima <bruno@exemplo.com>,CRM\Cadastro,CRM\Sprint 14,3,1205,,08/08/2026 21:44,02/09/2026 20:27,02/09/2026 20:27,,1 - Critical
+1227,Epic,ACOMPANHAR SOLICITAÇÃO,In Progress,,CRM\Cadastro,CRM,1,,,,,,,
+1228,Feature,Acompanhar solicitação - parte 1,In Progress,,CRM\Cadastro,CRM,,1227,,,,,,
+1229,Bug,Corrigir item 1 de acompanhar solicitação,Done,Ana Souza <ana@exemplo.com>,CRM\Cadastro,CRM\Sprint 15,2,1228,,27/08/2026 21:43,26/09/2026 22:24,26/09/2026 22:24,,1 - Critical
+1230,Product Backlog Item,Implementar item 2 de acompanhar solicitação,Done,Gabi Torres <gabi@exemplo.com>,CRM\Cadastro,CRM\Sprint 10,2,1228,,09/07/2026 15:47,09/07/2026 20:19,09/07/2026 20:19,,
+1231,Epic,CATEGORIAS DE PROTOCOLO,In Progress,,CRM\Protocolos,CRM,3,,,,,,,
+1232,Feature,Categorias de protocolo - parte 1,In Progress,,CRM\Protocolos,CRM,,1231,,,,,,
+1233,Product Backlog Item,Implementar item 1 de categorias de protocolo,New,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,1,1232,,25/05/2026 20:37,19/08/2026 14:13,,,
+1234,Product Backlog Item,Implementar item 2 de categorias de protocolo,Pronto para Desenvolvimento,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,3,1232,,22/05/2026 06:04,11/09/2026 23:29,,,
+1235,Product Backlog Item,Implementar item 3 de categorias de protocolo,New,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 10,4,1232,,21/06/2026 08:04,16/07/2026 10:06,,,
+1236,Product Backlog Item,Implementar item 4 de categorias de protocolo,Escrita,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,4,1232,,20/07/2026 01:43,10/09/2026 00:31,,,
+1237,Product Backlog Item,Implementar item 5 de categorias de protocolo,New,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 10,4,1232,,25/04/2026 12:46,16/07/2026 20:54,,,
+1238,Product Backlog Item,Implementar item 6 de categorias de protocolo,Aguardando Deploy UAT,,CRM\Protocolos,CRM\Sprint 9,3,1232,,14/04/2026 09:14,01/07/2026 22:33,,,
+1239,Epic,CRIAR PROTOCOLO,In Progress,,CRM\Protocolos,CRM,3,,,,,,16/12/2026,
+1240,Feature,Criar protocolo - parte 1,In Progress,,CRM\Protocolos,CRM,,1239,,,,,,
+1241,Bug,Corrigir item 1 de criar protocolo,Em Homolog (UAT),Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 9,1,1240,,16/03/2026 06:45,24/06/2026 04:04,,,1 - Critical
+1242,Bug,Corrigir item 2 de criar protocolo,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,4,1240,,17/06/2026 10:21,13/08/2026 23:53,13/08/2026 23:53,,4 - Low
+1243,Product Backlog Item,Implementar item 3 de criar protocolo,Para PROD,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,2,1240,,01/04/2026 06:38,30/09/2026 00:54,,,
+1244,Product Backlog Item,Implementar item 4 de criar protocolo,Done,,CRM\Protocolos,CRM\Sprint 13,4,1240,,04/08/2026 00:36,19/08/2026 01:00,19/08/2026 01:00,,
+1245,Bug,Corrigir item 5 de criar protocolo,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 9,4,1240,,07/05/2026 04:53,27/06/2026 10:55,,,3 - Medium
+1246,Bug,Corrigir item 6 de criar protocolo,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,4,1240,,20/06/2026 02:20,26/07/2026 14:24,26/07/2026 14:24,,3 - Medium
+1247,Product Backlog Item,Implementar item 7 de criar protocolo,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 10,4,1240,,02/04/2026 19:20,09/07/2026 20:20,09/07/2026 20:20,,
+1248,Bug,Corrigir item 8 de criar protocolo,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,2,1240,,18/09/2026 07:27,23/09/2026 19:43,23/09/2026 19:43,,3 - Medium
+1249,Bug,Corrigir item 9 de criar protocolo,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,1,1240,,17/07/2026 17:30,21/09/2026 23:31,,,2 - High
+1250,Product Backlog Item,Implementar item 10 de criar protocolo,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,3,1240,,11/08/2026 12:54,13/09/2026 02:03,13/09/2026 02:03,,
+1251,Bug,Corrigir item 11 de criar protocolo,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,2,1240,,03/07/2026 07:47,12/08/2026 23:16,12/08/2026 23:16,,3 - Medium
+1252,Bug,Corrigir item 12 de criar protocolo,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,3,1240,,11/05/2026 15:46,22/09/2026 17:41,22/09/2026 17:41,,3 - Medium
+1253,Epic,PAGAR TAXA,In Progress,,CRM\Protocolos,CRM,1,,,,,,,
+1254,Feature,Pagar taxa - parte 1,In Progress,,CRM\Protocolos,CRM,,1253,,,,,,
+1255,Product Backlog Item,Implementar item 1 de pagar taxa,Aguardando Deploy QA,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,4,1254,,26/04/2026 22:31,21/09/2026 08:14,,,
+1256,Product Backlog Item,Implementar item 2 de pagar taxa,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,4,1254,,19/05/2026 05:36,30/07/2026 00:30,,,
+1257,Bug,Corrigir item 3 de pagar taxa,Para Testar,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,1,1254,,13/06/2026 23:03,09/08/2026 10:04,,,3 - Medium
+1258,Product Backlog Item,Implementar item 4 de pagar taxa,Em Ref. Técnico,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1254,,01/04/2026 12:37,30/09/2026 12:40,,,
+1259,Bug,Corrigir item 5 de pagar taxa,Para Testar,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,3,1254,fornecedor,27/03/2026 06:28,17/09/2026 13:51,,,4 - Low
+1260,Feature,Pagar taxa - parte 2,In Progress,,CRM\Protocolos,CRM,,1253,,,,,,
+1261,Product Backlog Item,Implementar item 1 de pagar taxa,Em Testes (QA),Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,2,1260,,31/07/2026 04:16,28/09/2026 02:24,,,
+1262,Feature,Pagar taxa - parte 3,In Progress,,CRM\Protocolos,CRM,,1253,,,,,,
+1263,Product Backlog Item,Implementar item 1 de pagar taxa,Em Homolog (UAT),,CRM\Protocolos,CRM\Sprint 14,2,1262,fornecedor,02/09/2026 19:52,02/09/2026 19:52,,,
+1264,Product Backlog Item,Implementar item 2 de pagar taxa,Em Homolog (UAT),Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,3,1262,fornecedor,30/07/2026 01:39,31/07/2026 23:10,,,
+1265,Product Backlog Item,Implementar item 3 de pagar taxa,Em desenvolvimento,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,2,1262,fornecedor,01/06/2026 17:59,28/07/2026 16:32,,,
+1266,Bug,Corrigir item 4 de pagar taxa,New,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,2,1262,fornecedor,27/08/2026 14:42,27/08/2026 14:42,,,1 - Critical
+1267,Product Backlog Item,Implementar item 5 de pagar taxa,Para UAT,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,1,1262,,28/03/2026 09:55,25/07/2026 15:05,,,
+1268,Product Backlog Item,Implementar item 6 de pagar taxa,Em Testes (QA),Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,1,1262,,28/05/2026 17:25,10/09/2026 22:31,,,
+1269,Epic,ACOMPANHAR SOLICITAÇÕES,In Progress,,CRM\Protocolos,CRM,1,,,,,,,
+1270,Feature,Acompanhar solicitações - parte 1,In Progress,,CRM\Protocolos,CRM,,1269,,,,,,
+1271,Product Backlog Item,Implementar item 1 de acompanhar solicitações,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,4,1270,,02/07/2026 20:19,20/09/2026 22:57,20/09/2026 22:57,,
+1272,Product Backlog Item,Implementar item 2 de acompanhar solicitações,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,3,1270,,23/04/2026 18:16,29/07/2026 17:55,29/07/2026 17:55,,
+1273,Product Backlog Item,Implementar item 3 de acompanhar solicitações,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,4,1270,,28/03/2026 02:19,07/08/2026 04:56,07/08/2026 04:56,,
+1274,Bug,Corrigir item 4 de acompanhar solicitações,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,3,1270,,16/06/2026 14:56,27/09/2026 03:48,27/09/2026 03:48,,3 - Medium
+1275,Feature,Acompanhar solicitações - parte 2,In Progress,,CRM\Protocolos,CRM,,1269,,,,,,
+1276,Bug,Corrigir item 1 de acompanhar solicitações,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1275,,31/07/2026 16:48,02/10/2026 19:15,02/10/2026 19:15,,1 - Critical
+1277,Feature,Acompanhar solicitações - parte 3,In Progress,,CRM\Protocolos,CRM,,1269,,,,,,
+1278,Product Backlog Item,Implementar item 1 de acompanhar solicitações,Done,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 9,4,1277,,24/04/2026 08:02,29/06/2026 05:06,29/06/2026 05:06,,
+1279,Feature,Acompanhar solicitações - parte 4,In Progress,,CRM\Protocolos,CRM,,1269,,,,,,
+1280,Product Backlog Item,Implementar item 1 de acompanhar solicitações,Done,,CRM\Protocolos,CRM\Sprint 11,3,1279,,07/05/2026 21:21,01/08/2026 08:22,01/08/2026 08:22,,
+1281,Product Backlog Item,Implementar item 2 de acompanhar solicitações,Done,,CRM\Protocolos,CRM\Sprint 13,4,1279,,06/05/2026 03:14,28/08/2026 02:20,28/08/2026 02:20,,
+1282,Product Backlog Item,Implementar item 3 de acompanhar solicitações,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,1,1279,fornecedor,09/06/2026 20:45,27/09/2026 16:43,27/09/2026 16:43,,
+1283,Bug,Corrigir item 4 de acompanhar solicitações,Em Homolog (UAT),Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,2,1279,,27/04/2026 03:28,16/09/2026 14:45,,,4 - Low
+1284,Product Backlog Item,Implementar item 5 de acompanhar solicitações,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 9,1,1279,,09/03/2026 14:06,05/07/2026 04:32,05/07/2026 04:32,,
+1285,Product Backlog Item,Implementar item 6 de acompanhar solicitações,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 7,3,1279,,05/05/2026 08:57,26/05/2026 05:09,26/05/2026 05:09,,
+1286,Product Backlog Item,Implementar item 7 de acompanhar solicitações,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,3,1279,,02/08/2026 01:04,22/08/2026 01:10,22/08/2026 01:10,,
+1287,Bug,Corrigir item 8 de acompanhar solicitações,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 8,3,1279,,08/04/2026 05:55,11/06/2026 14:58,11/06/2026 14:58,,3 - Medium
+1288,Epic,INTERAÇÃO COM SOLICITAÇÕES,In Progress,,CRM\Protocolos,CRM,3,,,,,,,
+1289,Feature,Interação com solicitações - parte 1,In Progress,,CRM\Protocolos,CRM,,1288,,,,,,
+1290,Product Backlog Item,Implementar item 1 de interação com solicitações,Para PROD,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,1,1289,,12/09/2026 05:00,24/09/2026 09:39,,,
+1291,Product Backlog Item,Implementar item 2 de interação com solicitações,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,3,1289,,17/05/2026 23:31,19/08/2026 08:31,,,
+1292,Product Backlog Item,Implementar item 3 de interação com solicitações,Para UAT,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,4,1289,,22/08/2026 23:20,22/08/2026 23:20,,,
+1293,Bug,Corrigir item 4 de interação com solicitações,Em Testes (QA),Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,1,1289,,26/08/2026 19:02,26/08/2026 19:02,,,3 - Medium
+1294,Product Backlog Item,Implementar item 5 de interação com solicitações,Done,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,2,1289,,26/07/2026 16:19,08/10/2026 02:09,08/10/2026 02:09,,
+1295,Bug,Corrigir item 6 de interação com solicitações,Done,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,2,1289,,16/07/2026 06:53,11/08/2026 11:16,11/08/2026 11:16,,4 - Low
+1296,Feature,Interação com solicitações - parte 2,In Progress,,CRM\Protocolos,CRM,,1288,,,,,,
+1297,Product Backlog Item,Implementar item 1 de interação com solicitações,Em Testes (QA),Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,1,1296,,27/04/2026 00:58,14/09/2026 17:43,,,
+1298,Product Backlog Item,Implementar item 2 de interação com solicitações,Done,,CRM\Protocolos,CRM\Sprint 13,4,1296,,17/08/2026 16:54,30/08/2026 19:53,30/08/2026 19:53,,
+1299,Product Backlog Item,Implementar item 3 de interação com solicitações,Aguardando Deploy QA,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,2,1296,,27/07/2026 12:14,28/08/2026 08:14,,,
+1300,Epic,NOTIFICAÇÕES,In Progress,,CRM\Protocolos,CRM,2,,,,,,21/12/2026,
+1301,Feature,Notificações - parte 1,In Progress,,CRM\Protocolos,CRM,,1300,,,,,,
+1302,Product Backlog Item,Implementar item 1 de notificações,Done,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,3,1301,,10/04/2026 00:52,31/07/2026 21:13,31/07/2026 21:13,,
+1303,Product Backlog Item,Implementar item 2 de notificações,Done,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1301,,26/09/2026 12:38,03/10/2026 14:14,03/10/2026 14:14,,
+1304,Product Backlog Item,Implementar item 3 de notificações,Done,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 10,1,1301,,29/04/2026 00:21,06/07/2026 21:16,06/07/2026 21:16,,
+1305,Product Backlog Item,Implementar item 4 de notificações,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1301,fornecedor,01/10/2026 15:47,02/10/2026 19:44,02/10/2026 19:44,,
+1306,Product Backlog Item,Implementar item 5 de notificações,Para PROD,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,2,1301,,05/09/2026 20:05,05/09/2026 20:05,,,
+1307,Feature,Notificações - parte 2,In Progress,,CRM\Protocolos,CRM,,1300,,,,,,
+1308,Product Backlog Item,Implementar item 1 de notificações,Done,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,4,1307,,11/06/2026 19:50,28/07/2026 06:34,28/07/2026 06:34,,
+1309,Bug,Corrigir item 2 de notificações,Em Testes (QA),Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,3,1307,,31/07/2026 18:59,31/07/2026 18:59,,,3 - Medium
+1310,Bug,Corrigir item 3 de notificações,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,3,1307,,28/06/2026 16:11,14/09/2026 20:32,14/09/2026 20:32,,2 - High
+1311,Product Backlog Item,Implementar item 4 de notificações,Done,,CRM\Protocolos,CRM\Sprint 15,2,1307,,24/08/2026 14:13,18/09/2026 16:54,18/09/2026 16:54,,
+1312,Bug,Corrigir item 5 de notificações,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 2,3,1307,,20/03/2026 05:41,24/03/2026 22:36,24/03/2026 22:36,,1 - Critical
+1313,Bug,Corrigir item 6 de notificações,Done,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 4,2,1307,,11/03/2026 06:13,14/04/2026 03:24,14/04/2026 03:24,,4 - Low
+1314,Bug,Corrigir item 7 de notificações,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,3,1307,,31/05/2026 01:26,24/08/2026 10:28,24/08/2026 10:28,,3 - Medium
+1315,Bug,Corrigir item 8 de notificações,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,4,1307,fornecedor,30/03/2026 09:43,23/08/2026 05:26,,,3 - Medium
+1316,Bug,Corrigir item 9 de notificações,Done,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,3,1307,fornecedor,13/09/2026 15:48,30/09/2026 11:26,30/09/2026 11:26,,1 - Critical
+1317,Product Backlog Item,Implementar item 10 de notificações,Em desenvolvimento,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,1,1307,,22/07/2026 12:39,12/09/2026 18:30,,,
+1318,Feature,Notificações - parte 3,In Progress,,CRM\Protocolos,CRM,,1300,,,,,,
+1319,Product Backlog Item,Implementar item 1 de notificações,Done,,CRM\Protocolos,CRM\Sprint 11,4,1318,,10/06/2026 16:00,27/07/2026 22:52,27/07/2026 22:52,,
+1320,Product Backlog Item,Implementar item 2 de notificações,Done,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,1,1318,,05/04/2026 03:34,17/09/2026 07:08,17/09/2026 07:08,,
+1321,Product Backlog Item,Implementar item 3 de notificações,Code Review,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 10,3,1318,,05/05/2026 10:55,12/07/2026 03:07,,,
+1322,Product Backlog Item,Implementar item 4 de notificações,Para UAT,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 9,1,1318,,02/05/2026 14:53,02/07/2026 23:53,,,
+1323,Bug,Corrigir item 5 de notificações,Done,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,2,1318,,08/03/2026 16:20,26/09/2026 00:17,26/09/2026 00:17,,4 - Low
+1324,Bug,Corrigir item 6 de notificações,Done,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,3,1318,,04/07/2026 20:34,20/09/2026 10:07,20/09/2026 10:07,,4 - Low
+1325,Product Backlog Item,Implementar item 7 de notificações,Done,,CRM\Protocolos,CRM\Sprint 3,1,1318,,03/03/2026 13:39,04/04/2026 09:33,04/04/2026 09:33,,
+1326,Product Backlog Item,Implementar item 8 de notificações,Code Review,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,1,1318,,25/03/2026 09:37,18/08/2026 09:38,,,
+1327,Product Backlog Item,Implementar item 9 de notificações,Aguardando Deploy UAT,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,4,1318,,05/09/2026 10:56,05/09/2026 10:56,,,
+1328,Feature,Notificações - parte 4,In Progress,,CRM\Protocolos,CRM,,1300,,,,,,
+1329,Product Backlog Item,Implementar item 1 de notificações,Done,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,4,1328,,18/07/2026 12:26,17/08/2026 16:01,17/08/2026 16:01,,
+1330,Product Backlog Item,Implementar item 2 de notificações,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,4,1328,,02/09/2026 19:18,12/09/2026 10:41,12/09/2026 10:41,,
+1331,Product Backlog Item,Implementar item 3 de notificações,Done,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1328,,19/09/2026 11:53,01/10/2026 16:18,01/10/2026 16:18,,
+1332,Epic,UX PROTOCOLOS,In Progress,,CRM\Protocolos,CRM,2,,,,,,,
+1333,Feature,UX Protocolos - parte 1,In Progress,,CRM\Protocolos,CRM,,1332,,,,,,
+1334,Bug,Corrigir item 1 de ux protocolos,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,2,1333,,12/04/2026 07:06,30/07/2026 15:41,30/07/2026 15:41,,4 - Low
+1335,Product Backlog Item,Implementar item 2 de ux protocolos,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,3,1333,fornecedor,28/08/2026 08:14,28/08/2026 08:14,,,
+1336,Bug,Corrigir item 3 de ux protocolos,Done,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,4,1333,,10/08/2026 10:56,29/09/2026 12:24,29/09/2026 12:24,,4 - Low
+1337,Bug,Corrigir item 4 de ux protocolos,Em Homolog (UAT),Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,4,1333,,09/09/2026 00:57,01/10/2026 02:41,,,3 - Medium
+1338,Product Backlog Item,Implementar item 5 de ux protocolos,Em desenvolvimento,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,3,1333,,14/08/2026 12:40,14/08/2026 12:40,,,
+1339,Bug,Corrigir item 6 de ux protocolos,Bloqueado,,CRM\Protocolos,CRM\Sprint 11,3,1333,,17/05/2026 09:17,29/07/2026 07:36,,,3 - Medium
+1340,Product Backlog Item,Implementar item 7 de ux protocolos,Em Homolog (UAT),Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,4,1333,,06/08/2026 00:04,27/09/2026 08:26,,,
+1341,Product Backlog Item,Implementar item 8 de ux protocolos,Code Review,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,2,1333,,15/08/2026 18:06,15/08/2026 18:06,,,
+1342,Product Backlog Item,Implementar item 9 de ux protocolos,Code Review,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,3,1333,,12/03/2026 23:47,11/08/2026 19:35,,,
+1343,Product Backlog Item,Implementar item 10 de ux protocolos,UX,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,1,1333,,24/05/2026 05:34,25/07/2026 05:37,,,
+1344,Feature,UX Protocolos - parte 2,In Progress,,CRM\Protocolos,CRM,,1332,,,,,,
+1345,Product Backlog Item,Implementar item 1 de ux protocolos,Em desenvolvimento,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,3,1344,,06/08/2026 12:14,09/09/2026 12:06,,,
+1346,Bug,Corrigir item 2 de ux protocolos,Em desenvolvimento,,CRM\Protocolos,CRM\Sprint 10,4,1344,fornecedor,23/04/2026 06:17,12/07/2026 10:14,,,3 - Medium
+1347,Product Backlog Item,Implementar item 3 de ux protocolos,UX,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,3,1344,,08/09/2026 21:23,08/09/2026 21:23,,,
+1348,Bug,Corrigir item 4 de ux protocolos,Para Testar,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,2,1344,,24/09/2026 12:46,24/09/2026 12:46,,,3 - Medium
+1349,Product Backlog Item,Implementar item 5 de ux protocolos,Em Ref. Técnico,,CRM\Protocolos,CRM\Sprint 10,1,1344,,14/06/2026 01:01,14/07/2026 00:55,,,
+1350,Product Backlog Item,Implementar item 6 de ux protocolos,Pronto para Desenvolvimento,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 10,3,1344,,10/06/2026 03:22,11/07/2026 21:17,,,
+1351,Product Backlog Item,Implementar item 7 de ux protocolos,Aguardando Deploy UAT,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1344,bloqueado,01/10/2026 09:37,09/10/2026 00:54,,,
+1352,Feature,UX Protocolos - parte 3,In Progress,,CRM\Protocolos,CRM,,1332,,,,,,
+1353,Product Backlog Item,Implementar item 1 de ux protocolos,Para Testar,Fábio Nunes <fábio@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,2,1352,,27/09/2026 17:14,27/09/2026 17:14,,,
+1354,Product Backlog Item,Implementar item 2 de ux protocolos,Done,Diego Rocha <diego@exemplo.com>,CRM\Protocolos,CRM\Sprint 8,1,1352,,24/05/2026 06:08,17/06/2026 17:32,17/06/2026 17:32,,
+1355,Product Backlog Item,Implementar item 3 de ux protocolos,Backlog para Refinamento,Carla Dias <carla@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,2,1352,,30/07/2026 02:59,30/07/2026 02:59,,,
+1356,Product Backlog Item,Implementar item 4 de ux protocolos,Para QA,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,3,1352,,24/06/2026 08:08,22/08/2026 12:26,,,
+1357,Product Backlog Item,Implementar item 5 de ux protocolos,Em Ref. Técnico,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,1,1352,,02/04/2026 00:14,13/09/2026 06:17,,,
+1358,Product Backlog Item,Implementar item 6 de ux protocolos,Aguardando Deploy UAT,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,4,1352,,28/05/2026 15:39,13/09/2026 08:00,,,
+1359,Product Backlog Item,Implementar item 7 de ux protocolos,Para PROD,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 14,4,1352,,01/03/2026 20:57,11/09/2026 09:33,,,
+1360,Product Backlog Item,Implementar item 8 de ux protocolos,Para UAT,Elisa Prado <elisa@exemplo.com>,CRM\Protocolos,CRM\Sprint 13,1,1352,,29/08/2026 22:06,29/08/2026 22:06,,,
+1361,Product Backlog Item,Implementar item 9 de ux protocolos,Para Testar,,CRM\Protocolos,CRM\Sprint 14,3,1352,,26/06/2026 06:22,11/09/2026 13:29,,,
+1362,Feature,UX Protocolos - parte 4,In Progress,,CRM\Protocolos,CRM,,1332,,,,,,
+1363,Product Backlog Item,Implementar item 1 de ux protocolos,Done,Gabi Torres <gabi@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,1,1362,,22/08/2026 16:30,02/10/2026 10:32,02/10/2026 10:32,,
+1364,Product Backlog Item,Implementar item 2 de ux protocolos,Para QA,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,1,1362,,21/07/2026 09:31,21/07/2026 09:31,,,
+1365,Product Backlog Item,Implementar item 3 de ux protocolos,Para Testar,Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 15,2,1362,,06/07/2026 11:12,27/09/2026 05:04,,,
+1366,Product Backlog Item,Implementar item 4 de ux protocolos,Pronto para Desenvolvimento,Ana Souza <ana@exemplo.com>,CRM\Protocolos,CRM\Sprint 16,2,1362,bloqueado,04/10/2026 18:19,04/10/2026 18:19,,,
+1367,Bug,Corrigir item 5 de ux protocolos,Para Testar,,CRM\Protocolos,CRM\Sprint 12,3,1362,,11/03/2026 07:52,10/08/2026 00:50,,,2 - High
+1368,Bug,Corrigir item 6 de ux protocolos,Em Testes (QA),Hugo Melo <hugo@exemplo.com>,CRM\Protocolos,CRM\Sprint 11,3,1362,bloqueado; fornecedor,29/03/2026 07:03,30/07/2026 14:52,,,3 - Medium
+1369,Product Backlog Item,Implementar item 7 de ux protocolos,Aguardando Deploy UAT,Bruno Lima <bruno@exemplo.com>,CRM\Protocolos,CRM\Sprint 12,3,1362,,22/07/2026 20:42,12/08/2026 04:15,,,
+1370,Epic,TREINAMENTO E HOMOLOGAÇÕES,In Progress,,CRM\CRM Core,CRM,1,,,,,,27/10/2026,
+1371,Feature,Treinamento e homologações - parte 1,In Progress,,CRM\CRM Core,CRM,,1370,,,,,,
+1372,Bug,Corrigir item 1 de treinamento e homologações,Para Testar,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,3,1371,,26/05/2026 18:18,28/07/2026 18:59,,,3 - Medium
+1373,Feature,Treinamento e homologações - parte 2,In Progress,,CRM\CRM Core,CRM,,1370,,,,,,
+1374,Product Backlog Item,Implementar item 1 de treinamento e homologações,Em desenvolvimento,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,4,1373,,04/03/2026 00:23,22/07/2026 06:46,,,
+1375,Product Backlog Item,Implementar item 2 de treinamento e homologações,UX,,CRM\CRM Core,CRM\Sprint 16,2,1373,,20/06/2026 18:23,07/10/2026 01:56,,,
+1376,Product Backlog Item,Implementar item 3 de treinamento e homologações,New,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,2,1373,,22/04/2026 13:22,27/06/2026 06:27,,,
+1377,Product Backlog Item,Implementar item 4 de treinamento e homologações,Em Ref. Técnico,,CRM\CRM Core,CRM\Sprint 10,2,1373,,03/07/2026 19:27,19/07/2026 07:46,,,
+1378,Feature,Treinamento e homologações - parte 3,In Progress,,CRM\CRM Core,CRM,,1370,,,,,,
+1379,Product Backlog Item,Implementar item 1 de treinamento e homologações,New,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,2,1378,,20/08/2026 19:52,20/08/2026 19:52,,,
+1380,Product Backlog Item,Implementar item 2 de treinamento e homologações,Code Review,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1378,,30/03/2026 11:34,16/09/2026 14:20,,,
+1381,Product Backlog Item,Implementar item 3 de treinamento e homologações,Para Testar,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,3,1378,,04/10/2026 10:59,04/10/2026 10:59,,,
+1382,Bug,Corrigir item 4 de treinamento e homologações,Em desenvolvimento,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,4,1378,,25/03/2026 08:05,19/08/2026 00:29,,,3 - Medium
+1383,Bug,Corrigir item 5 de treinamento e homologações,Em desenvolvimento,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,3,1378,,01/04/2026 23:37,28/09/2026 05:36,,,3 - Medium
+1384,Bug,Corrigir item 6 de treinamento e homologações,Em Homolog (UAT),Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,2,1378,,30/06/2026 06:43,30/07/2026 07:13,,,1 - Critical
+1385,Epic,LAYOUT DE OBJETOS,In Progress,,CRM\CRM Core,CRM,3,,,,,,11/10/2026,
+1386,Feature,Layout de objetos - parte 1,In Progress,,CRM\CRM Core,CRM,,1385,,,,,,
+1387,Product Backlog Item,Implementar item 1 de layout de objetos,Done,,CRM\CRM Core,CRM\Sprint 4,4,1386,,21/03/2026 14:36,17/04/2026 17:49,17/04/2026 17:49,,
+1388,Product Backlog Item,Implementar item 2 de layout de objetos,Done,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,4,1386,,21/05/2026 07:32,16/09/2026 19:28,16/09/2026 19:28,,
+1389,Product Backlog Item,Implementar item 3 de layout de objetos,Para PROD,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 10,2,1386,,12/07/2026 13:00,12/07/2026 13:00,,,
+1390,Product Backlog Item,Implementar item 4 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 7,2,1386,,11/04/2026 07:32,05/06/2026 19:34,05/06/2026 19:34,,
+1391,Bug,Corrigir item 5 de layout de objetos,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,1,1386,,11/04/2026 01:36,21/08/2026 11:42,,,4 - Low
+1392,Product Backlog Item,Implementar item 6 de layout de objetos,Para QA,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,2,1386,,26/08/2026 11:44,26/08/2026 11:44,,,
+1393,Product Backlog Item,Implementar item 7 de layout de objetos,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 7,4,1386,,08/05/2026 02:54,29/05/2026 16:29,29/05/2026 16:29,,
+1394,Bug,Corrigir item 8 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,4,1386,,23/04/2026 14:44,05/08/2026 07:34,05/08/2026 07:34,,3 - Medium
+1395,Feature,Layout de objetos - parte 2,In Progress,,CRM\CRM Core,CRM,,1385,,,,,,
+1396,Product Backlog Item,Implementar item 1 de layout de objetos,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 5,1,1395,,04/04/2026 16:50,01/05/2026 19:45,01/05/2026 19:45,,
+1397,Product Backlog Item,Implementar item 2 de layout de objetos,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,4,1395,,29/04/2026 12:21,13/09/2026 09:21,13/09/2026 09:21,,
+1398,Bug,Corrigir item 3 de layout de objetos,Em Testes (QA),Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1395,,22/04/2026 10:33,27/09/2026 23:24,,,3 - Medium
+1399,Product Backlog Item,Implementar item 4 de layout de objetos,Code Review,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,4,1395,,23/05/2026 08:20,18/09/2026 22:39,,,
+1400,Product Backlog Item,Implementar item 5 de layout de objetos,Aguardando Deploy UAT,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,1,1395,,15/09/2026 23:05,24/09/2026 17:27,,,
+1401,Product Backlog Item,Implementar item 6 de layout de objetos,Done,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,2,1395,,16/06/2026 03:50,05/09/2026 09:48,05/09/2026 09:48,,
+1402,Feature,Layout de objetos - parte 3,In Progress,,CRM\CRM Core,CRM,,1385,,,,,,
+1403,Product Backlog Item,Implementar item 1 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,2,1402,,22/08/2026 01:22,28/08/2026 13:23,28/08/2026 13:23,,
+1404,Bug,Corrigir item 2 de layout de objetos,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,4,1402,,01/08/2026 04:55,07/08/2026 22:09,07/08/2026 22:09,,2 - High
+1405,Bug,Corrigir item 3 de layout de objetos,Done,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,1,1402,,09/07/2026 01:30,30/09/2026 21:42,30/09/2026 21:42,,4 - Low
+1406,Bug,Corrigir item 4 de layout de objetos,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,2,1402,,17/08/2026 06:25,24/08/2026 13:41,24/08/2026 13:41,,3 - Medium
+1407,Product Backlog Item,Implementar item 5 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,2,1402,,26/07/2026 23:45,03/08/2026 18:54,03/08/2026 18:54,,
+1408,Product Backlog Item,Implementar item 6 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1402,,29/07/2026 21:45,22/09/2026 18:30,22/09/2026 18:30,,
+1409,Product Backlog Item,Implementar item 7 de layout de objetos,Para Testar,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,2,1402,,17/04/2026 10:07,02/10/2026 23:29,,,
+1410,Feature,Layout de objetos - parte 4,In Progress,,CRM\CRM Core,CRM,,1385,,,,,,
+1411,Bug,Corrigir item 1 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,2,1410,,07/03/2026 19:52,01/10/2026 23:05,01/10/2026 23:05,,3 - Medium
+1412,Bug,Corrigir item 2 de layout de objetos,Para Testar,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,4,1410,,12/09/2026 07:30,28/09/2026 19:09,,,3 - Medium
+1413,Product Backlog Item,Implementar item 3 de layout de objetos,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1410,,12/06/2026 02:54,16/09/2026 18:03,16/09/2026 18:03,,
+1414,Product Backlog Item,Implementar item 4 de layout de objetos,Aguardando Deploy UAT,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,1,1410,,21/04/2026 18:34,13/08/2026 21:31,,,
+1415,Product Backlog Item,Implementar item 5 de layout de objetos,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,3,1410,,10/09/2026 04:34,25/09/2026 13:38,25/09/2026 13:38,,
+1416,Bug,Corrigir item 6 de layout de objetos,Em desenvolvimento,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,4,1410,,16/04/2026 04:54,18/09/2026 00:21,,,3 - Medium
+1417,Product Backlog Item,Implementar item 7 de layout de objetos,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,3,1410,,20/04/2026 19:11,12/08/2026 17:55,12/08/2026 17:55,,
+1418,Bug,Corrigir item 8 de layout de objetos,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,2,1410,,18/07/2026 10:38,23/07/2026 18:36,23/07/2026 18:36,,4 - Low
+1419,Product Backlog Item,Implementar item 9 de layout de objetos,Para Testar,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,4,1410,bloqueado,05/03/2026 11:32,05/07/2026 18:50,,,
+1420,Product Backlog Item,Implementar item 10 de layout de objetos,Done,,CRM\CRM Core,CRM\Sprint 13,3,1410,,22/08/2026 20:10,26/08/2026 20:33,26/08/2026 20:33,,
+1421,Bug,Corrigir item 11 de layout de objetos,Para Testar,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,1,1410,,18/04/2026 07:38,30/09/2026 01:18,,,4 - Low
+1422,Epic,RENDERIZAR DOCUMENTOS,In Progress,,CRM\CRM Core,CRM,2,,,,,,,
+1423,Feature,Renderizar documentos - parte 1,In Progress,,CRM\CRM Core,CRM,,1422,,,,,,
+1424,Product Backlog Item,Implementar item 1 de renderizar documentos,UX,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,1,1423,,21/03/2026 03:28,21/07/2026 18:05,,,
+1425,Feature,Renderizar documentos - parte 2,In Progress,,CRM\CRM Core,CRM,,1422,,,,,,
+1426,Product Backlog Item,Implementar item 1 de renderizar documentos,Em Testes (QA),Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,1,1425,,23/05/2026 14:43,26/08/2026 16:32,,,
+1427,Product Backlog Item,Implementar item 2 de renderizar documentos,Aguardando Deploy UAT,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,3,1425,,15/09/2026 21:39,15/09/2026 21:39,,,
+1428,Product Backlog Item,Implementar item 3 de renderizar documentos,Done,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 8,2,1425,,28/04/2026 21:12,21/06/2026 13:27,21/06/2026 13:27,,
+1429,Product Backlog Item,Implementar item 4 de renderizar documentos,Escrita,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,1,1425,,11/04/2026 09:56,06/08/2026 17:35,,,
+1430,Bug,Corrigir item 5 de renderizar documentos,Em Homolog (UAT),,CRM\CRM Core,CRM\Sprint 15,3,1425,,11/06/2026 08:41,15/09/2026 23:15,,,3 - Medium
+1431,Product Backlog Item,Implementar item 6 de renderizar documentos,Em Homolog (UAT),Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,1,1425,,04/05/2026 01:53,15/08/2026 21:57,,,
+1432,Product Backlog Item,Implementar item 7 de renderizar documentos,Em desenvolvimento,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,1,1425,,12/04/2026 23:13,27/07/2026 08:20,,,
+1433,Product Backlog Item,Implementar item 8 de renderizar documentos,Pronto para Desenvolvimento,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,2,1425,bloqueado,13/05/2026 00:59,30/08/2026 19:40,,,
+1434,Product Backlog Item,Implementar item 9 de renderizar documentos,Pronto para Desenvolvimento,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,1,1425,,10/03/2026 23:12,20/08/2026 08:36,,,
+1435,Product Backlog Item,Implementar item 10 de renderizar documentos,Escrita,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,1,1425,,09/05/2026 20:25,04/07/2026 03:48,,,
+1436,Bug,Corrigir item 11 de renderizar documentos,Em Testes (QA),Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,2,1425,,20/05/2026 21:14,28/07/2026 22:02,,,3 - Medium
+1437,Product Backlog Item,Implementar item 12 de renderizar documentos,Escrita,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,1,1425,,10/08/2026 17:25,20/08/2026 01:31,,,
+1438,Feature,Renderizar documentos - parte 3,In Progress,,CRM\CRM Core,CRM,,1422,,,,,,
+1439,Product Backlog Item,Implementar item 1 de renderizar documentos,Para Testar,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,3,1438,,29/07/2026 09:29,07/08/2026 10:02,,,
+1440,Bug,Corrigir item 2 de renderizar documentos,Para Testar,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,3,1438,,20/09/2026 18:25,20/09/2026 18:25,,,3 - Medium
+1441,Product Backlog Item,Implementar item 3 de renderizar documentos,Done,,CRM\CRM Core,CRM\Sprint 14,2,1438,,28/08/2026 00:01,06/09/2026 01:10,06/09/2026 01:10,,
+1442,Product Backlog Item,Implementar item 4 de renderizar documentos,Para QA,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 10,4,1438,,29/03/2026 08:17,08/07/2026 13:52,,,
+1443,Bug,Corrigir item 5 de renderizar documentos,Bloqueado,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 10,1,1438,,12/07/2026 14:24,16/07/2026 02:19,,,1 - Critical
+1444,Product Backlog Item,Implementar item 6 de renderizar documentos,Em Ref. Técnico,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,1,1438,,02/09/2026 12:40,02/09/2026 12:40,,,
+1445,Bug,Corrigir item 7 de renderizar documentos,Em Homolog (UAT),Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,4,1438,,24/09/2026 20:21,24/09/2026 20:21,,,1 - Critical
+1446,Bug,Corrigir item 8 de renderizar documentos,New,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,2,1438,,20/07/2026 23:27,20/07/2026 23:27,,,3 - Medium
+1447,Bug,Corrigir item 9 de renderizar documentos,Em desenvolvimento,,CRM\CRM Core,CRM\Sprint 12,1,1438,,09/08/2026 14:59,09/08/2026 14:59,,,3 - Medium
+1448,Product Backlog Item,Implementar item 10 de renderizar documentos,Para Testar,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1438,,14/08/2026 12:20,22/09/2026 23:49,,,
+1449,Epic,CONTAS LEGADAS,In Progress,,CRM\CRM Core,CRM,2,,,,,,,
+1450,Feature,Contas legadas - parte 1,In Progress,,CRM\CRM Core,CRM,,1449,,,,,,
+1451,Product Backlog Item,Implementar item 1 de contas legadas,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,3,1450,,05/07/2026 19:48,19/08/2026 11:54,19/08/2026 11:54,,
+1452,Bug,Corrigir item 2 de contas legadas,Em desenvolvimento,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,4,1450,,05/08/2026 22:38,10/09/2026 15:35,,,3 - Medium
+1453,Feature,Contas legadas - parte 2,In Progress,,CRM\CRM Core,CRM,,1449,,,,,,
+1454,Product Backlog Item,Implementar item 1 de contas legadas,Para Testar,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,4,1453,,29/07/2026 10:49,19/09/2026 19:33,,,
+1455,Product Backlog Item,Implementar item 2 de contas legadas,Aguardando Deploy UAT,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,1,1453,,17/08/2026 17:31,30/09/2026 02:51,,,
+1456,Product Backlog Item,Implementar item 3 de contas legadas,Para QA,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,4,1453,,17/03/2026 22:58,03/10/2026 23:38,,,
+1457,Bug,Corrigir item 4 de contas legadas,Em desenvolvimento,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,3,1453,,02/05/2026 12:14,13/09/2026 02:26,,,4 - Low
+1458,Feature,Contas legadas - parte 3,In Progress,,CRM\CRM Core,CRM,,1449,,,,,,
+1459,Product Backlog Item,Implementar item 1 de contas legadas,Em Testes (QA),,CRM\CRM Core,CRM\Sprint 9,3,1458,,29/04/2026 16:31,01/07/2026 05:07,,,
+1460,Product Backlog Item,Implementar item 2 de contas legadas,Em Testes (QA),Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,2,1458,,20/03/2026 06:29,11/08/2026 14:05,,,
+1461,Product Backlog Item,Implementar item 3 de contas legadas,Para UAT,,CRM\CRM Core,CRM\Sprint 12,3,1458,,14/06/2026 13:33,09/08/2026 01:51,,,
+1462,Product Backlog Item,Implementar item 4 de contas legadas,Para UAT,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,3,1458,bloqueado,29/08/2026 20:18,19/09/2026 10:44,,,
+1463,Product Backlog Item,Implementar item 5 de contas legadas,Done,,CRM\CRM Core,CRM\Sprint 10,2,1458,,12/03/2026 07:50,06/07/2026 14:43,06/07/2026 14:43,,
+1464,Product Backlog Item,Implementar item 6 de contas legadas,Para PROD,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,4,1458,,10/08/2026 06:20,10/08/2026 06:20,,,
+1465,Epic,GOVERNANÇA DO CRM,In Progress,,CRM\CRM Core,CRM,1,,,,,,,
+1466,Feature,Governança do CRM - parte 1,In Progress,,CRM\CRM Core,CRM,,1465,,,,,,
+1467,Product Backlog Item,Implementar item 1 de governança do crm,Backlog para Refinamento,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,4,1466,,25/03/2026 19:25,17/08/2026 05:26,,,
+1468,Bug,Corrigir item 2 de governança do crm,Em Testes (QA),Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,2,1466,,17/03/2026 19:19,25/07/2026 09:14,,,3 - Medium
+1469,Product Backlog Item,Implementar item 3 de governança do crm,Pronto para Desenvolvimento,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,4,1466,,22/07/2026 18:39,12/09/2026 08:44,,,
+1470,Product Backlog Item,Implementar item 4 de governança do crm,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,1,1466,,06/08/2026 12:53,08/10/2026 10:32,08/10/2026 10:32,,
+1471,Product Backlog Item,Implementar item 5 de governança do crm,Em Testes (QA),Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,3,1466,,28/06/2026 17:39,03/10/2026 02:42,,,
+1472,Product Backlog Item,Implementar item 6 de governança do crm,Aguardando Deploy QA,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,2,1466,,09/03/2026 08:46,02/07/2026 02:10,,,
+1473,Product Backlog Item,Implementar item 7 de governança do crm,UX,,CRM\CRM Core,CRM\Sprint 15,4,1466,,01/08/2026 22:55,24/09/2026 23:14,,,
+1474,Product Backlog Item,Implementar item 8 de governança do crm,Para PROD,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,1,1466,,18/07/2026 08:38,09/10/2026 04:52,,,
+1475,Bug,Corrigir item 9 de governança do crm,Para Testar,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1466,,08/04/2026 02:22,25/09/2026 16:56,,,1 - Critical
+1476,Product Backlog Item,Implementar item 10 de governança do crm,Para QA,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,3,1466,,17/05/2026 07:24,25/06/2026 08:29,,,
+1477,Epic,CONSOLE DE ATENDIMENTO,In Progress,,CRM\CRM Core,CRM,2,,,,,,,
+1478,Feature,Console de atendimento - parte 1,In Progress,,CRM\CRM Core,CRM,,1477,,,,,,
+1479,Product Backlog Item,Implementar item 1 de console de atendimento,Para QA,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,4,1478,,07/10/2026 12:59,07/10/2026 12:59,,,
+1480,Product Backlog Item,Implementar item 2 de console de atendimento,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,1,1478,,03/03/2026 17:59,12/08/2026 08:44,12/08/2026 08:44,,
+1481,Bug,Corrigir item 3 de console de atendimento,Em Testes (QA),Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 10,3,1478,,17/03/2026 04:56,08/07/2026 01:33,,,3 - Medium
+1482,Feature,Console de atendimento - parte 2,In Progress,,CRM\CRM Core,CRM,,1477,,,,,,
+1483,Product Backlog Item,Implementar item 1 de console de atendimento,Em Testes (QA),Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,2,1482,,25/03/2026 22:31,04/07/2026 09:28,,,
+1484,Bug,Corrigir item 2 de console de atendimento,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,4,1482,,16/04/2026 19:15,25/09/2026 04:50,25/09/2026 04:50,,4 - Low
+1485,Product Backlog Item,Implementar item 3 de console de atendimento,Done,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 14,2,1482,,17/08/2026 04:19,10/09/2026 00:42,10/09/2026 00:42,,
+1486,Product Backlog Item,Implementar item 4 de console de atendimento,Para UAT,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 9,2,1482,,29/05/2026 03:16,27/06/2026 11:02,,,
+1487,Product Backlog Item,Implementar item 5 de console de atendimento,Done,Ana Souza <ana@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1482,,31/07/2026 15:55,20/09/2026 02:15,20/09/2026 02:15,,
+1488,Bug,Corrigir item 6 de console de atendimento,Em Testes (QA),Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,4,1482,,28/08/2026 23:58,28/08/2026 23:58,,,4 - Low
+1489,Epic,ANEXOS NO CONSOLE,In Progress,,CRM\CRM Core,CRM,2,,,,,,,
+1490,Feature,Anexos no console - parte 1,In Progress,,CRM\CRM Core,CRM,,1489,,,,,,
+1491,Product Backlog Item,Implementar item 1 de anexos no console,Done,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 11,4,1490,,22/07/2026 10:41,30/07/2026 03:18,30/07/2026 03:18,,
+1492,Product Backlog Item,Implementar item 2 de anexos no console,Para UAT,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 12,3,1490,,12/07/2026 18:22,16/08/2026 05:33,,,
+1493,Product Backlog Item,Implementar item 3 de anexos no console,Done,,CRM\CRM Core,CRM\Sprint 7,1,1490,,21/04/2026 09:58,28/05/2026 11:03,28/05/2026 11:03,,
+1494,Product Backlog Item,Implementar item 4 de anexos no console,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1490,,22/09/2026 22:29,26/09/2026 15:50,26/09/2026 15:50,,
+1495,Bug,Corrigir item 5 de anexos no console,Done,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,3,1490,,08/10/2026 13:54,08/10/2026 15:35,08/10/2026 15:35,,1 - Critical
+1496,Product Backlog Item,Implementar item 6 de anexos no console,Done,Gabi Torres <gabi@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,1,1490,,19/08/2026 10:10,01/10/2026 07:59,01/10/2026 07:59,,
+1497,Product Backlog Item,Implementar item 7 de anexos no console,Done,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,4,1490,,06/07/2026 03:10,01/10/2026 22:06,01/10/2026 22:06,,
+1498,Product Backlog Item,Implementar item 8 de anexos no console,Done,,CRM\CRM Core,CRM\Sprint 14,4,1490,,30/08/2026 01:38,03/09/2026 11:56,03/09/2026 11:56,,
+1499,Product Backlog Item,Implementar item 9 de anexos no console,Done,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 10,3,1490,,30/05/2026 00:40,06/07/2026 11:26,06/07/2026 11:26,,
+1500,Product Backlog Item,Implementar item 10 de anexos no console,Para UAT,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,2,1490,,10/04/2026 16:00,25/09/2026 02:08,,,
+1501,Feature,Anexos no console - parte 2,In Progress,,CRM\CRM Core,CRM,,1489,,,,,,
+1502,Product Backlog Item,Implementar item 1 de anexos no console,Para PROD,Elisa Prado <elisa@exemplo.com>,CRM\CRM Core,CRM\Sprint 10,4,1501,,19/07/2026 12:44,19/07/2026 12:44,,,
+1503,Bug,Corrigir item 2 de anexos no console,Done,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,2,1501,,23/08/2026 23:07,27/08/2026 09:55,27/08/2026 09:55,,3 - Medium
+1504,Product Backlog Item,Implementar item 3 de anexos no console,Para PROD,Fábio Nunes <fábio@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,4,1501,,25/07/2026 09:55,04/10/2026 16:34,,,
+1505,Product Backlog Item,Implementar item 4 de anexos no console,Done,Bruno Lima <bruno@exemplo.com>,CRM\CRM Core,CRM\Sprint 6,1,1501,,05/03/2026 03:07,15/05/2026 01:14,15/05/2026 01:14,,
+1506,Product Backlog Item,Implementar item 5 de anexos no console,Done,Carla Dias <carla@exemplo.com>,CRM\CRM Core,CRM\Sprint 15,3,1501,,15/09/2026 08:33,20/09/2026 07:36,20/09/2026 07:36,,
+1507,Product Backlog Item,Implementar item 6 de anexos no console,Done,Diego Rocha <diego@exemplo.com>,CRM\CRM Core,CRM\Sprint 16,2,1501,,25/07/2026 21:08,08/10/2026 15:24,08/10/2026 15:24,,
+1508,Product Backlog Item,Implementar item 7 de anexos no console,Done,Hugo Melo <hugo@exemplo.com>,CRM\CRM Core,CRM\Sprint 13,4,1501,,14/06/2026 01:46,29/08/2026 13:53,29/08/2026 13:53,,
+1509,Epic,CARGA DE DADOS,In Progress,,CRM\Plataforma e Dados,CRM,1,,,,,,,
+1510,Feature,Carga de dados - parte 1,In Progress,,CRM\Plataforma e Dados,CRM,,1509,,,,,,
+1511,Bug,Corrigir item 1 de carga de dados,Em Testes (QA),Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,1,1510,,11/07/2026 08:43,03/10/2026 06:53,,,3 - Medium
+1512,Product Backlog Item,Implementar item 2 de carga de dados,Escrita,Hugo Melo <hugo@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 10,1,1510,,21/04/2026 05:37,15/07/2026 06:19,,,
+1513,Product Backlog Item,Implementar item 3 de carga de dados,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,2,1510,,05/09/2026 18:34,06/10/2026 09:08,06/10/2026 09:08,,
+1514,Product Backlog Item,Implementar item 4 de carga de dados,Done,,CRM\Plataforma e Dados,CRM\Sprint 9,1,1510,,25/05/2026 17:04,03/07/2026 01:39,03/07/2026 01:39,,
+1515,Feature,Carga de dados - parte 2,In Progress,,CRM\Plataforma e Dados,CRM,,1509,,,,,,
+1516,Product Backlog Item,Implementar item 1 de carga de dados,Pronto para Desenvolvimento,Fábio Nunes <fábio@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 11,2,1515,,21/05/2026 16:00,20/07/2026 23:58,,,
+1517,Bug,Corrigir item 2 de carga de dados,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,1,1515,bloqueado,07/09/2026 21:42,28/09/2026 11:30,,,4 - Low
+1518,Product Backlog Item,Implementar item 3 de carga de dados,Em Ref. Técnico,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1515,,08/09/2026 15:38,05/10/2026 22:39,,,
+1519,Product Backlog Item,Implementar item 4 de carga de dados,Para Testar,Fábio Nunes <fábio@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 11,1,1515,,04/03/2026 20:01,02/08/2026 11:17,,,
+1520,Product Backlog Item,Implementar item 5 de carga de dados,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 14,2,1515,,24/07/2026 09:53,10/09/2026 17:06,10/09/2026 17:06,,
+1521,Bug,Corrigir item 6 de carga de dados,Para Testar,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 11,2,1515,,23/07/2026 02:31,23/07/2026 02:31,,,1 - Critical
+1522,Product Backlog Item,Implementar item 7 de carga de dados,Para PROD,Fábio Nunes <fábio@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,1,1515,,20/07/2026 21:00,23/08/2026 00:46,,,
+1523,Epic,OBSERVABILIDADE,In Progress,,CRM\Plataforma e Dados,CRM,2,,,,,,10/10/2026,
+1524,Feature,Observabilidade - parte 1,In Progress,,CRM\Plataforma e Dados,CRM,,1523,,,,,,
+1525,Product Backlog Item,Implementar item 1 de observabilidade,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,2,1524,,12/07/2026 22:35,28/09/2026 13:47,28/09/2026 13:47,,
+1526,Product Backlog Item,Implementar item 2 de observabilidade,Done,Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 12,2,1524,,20/06/2026 06:10,09/08/2026 17:17,09/08/2026 17:17,,
+1527,Product Backlog Item,Implementar item 3 de observabilidade,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,4,1524,,27/03/2026 10:10,25/08/2026 22:21,25/08/2026 22:21,,
+1528,Feature,Observabilidade - parte 2,In Progress,,CRM\Plataforma e Dados,CRM,,1523,,,,,,
+1529,Bug,Corrigir item 1 de observabilidade,Done,Diego Rocha <diego@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 1,1,1528,,03/03/2026 14:49,13/03/2026 19:03,13/03/2026 19:03,,2 - High
+1530,Product Backlog Item,Implementar item 2 de observabilidade,Done,Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 12,1,1528,,01/04/2026 17:32,13/08/2026 09:03,13/08/2026 09:03,,
+1531,Product Backlog Item,Implementar item 3 de observabilidade,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,1,1528,,18/08/2026 04:54,03/10/2026 01:45,03/10/2026 01:45,,
+1532,Feature,Observabilidade - parte 3,In Progress,,CRM\Plataforma e Dados,CRM,,1523,,,,,,
+1533,Product Backlog Item,Implementar item 1 de observabilidade,Done,Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 7,3,1532,,03/03/2026 09:00,03/06/2026 01:30,03/06/2026 01:30,,
+1534,Product Backlog Item,Implementar item 2 de observabilidade,Aguardando Deploy UAT,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 10,4,1532,,05/05/2026 01:01,10/07/2026 06:27,,,
+1535,Product Backlog Item,Implementar item 3 de observabilidade,Done,Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 8,1,1532,,21/05/2026 13:40,12/06/2026 03:17,12/06/2026 03:17,,
+1536,Product Backlog Item,Implementar item 4 de observabilidade,Done,,CRM\Plataforma e Dados,CRM\Sprint 14,3,1532,,28/07/2026 22:09,09/09/2026 01:58,09/09/2026 01:58,,
+1537,Product Backlog Item,Implementar item 5 de observabilidade,Done,Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 7,2,1532,,24/04/2026 22:55,26/05/2026 14:53,26/05/2026 14:53,,
+1538,Product Backlog Item,Implementar item 6 de observabilidade,Em Testes (QA),Diego Rocha <diego@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 12,1,1532,,13/08/2026 13:06,13/08/2026 13:06,,,
+1539,Product Backlog Item,Implementar item 7 de observabilidade,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,3,1532,,09/05/2026 17:08,22/08/2026 20:30,22/08/2026 20:30,,
+1540,Product Backlog Item,Implementar item 8 de observabilidade,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1532,,30/07/2026 09:05,03/10/2026 12:16,03/10/2026 12:16,,
+1541,Product Backlog Item,Implementar item 9 de observabilidade,Done,,CRM\Plataforma e Dados,CRM\Sprint 14,4,1532,,09/05/2026 00:18,05/09/2026 15:03,05/09/2026 15:03,,
+1542,Epic,DEVOPS,In Progress,,CRM\Plataforma e Dados,CRM,1,,,,,,,
+1543,Feature,DevOps - parte 1,In Progress,,CRM\Plataforma e Dados,CRM,,1542,,,,,,
+1544,Product Backlog Item,Implementar item 1 de devops,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1543,,21/09/2026 18:07,06/10/2026 05:27,06/10/2026 05:27,,
+1545,Product Backlog Item,Implementar item 2 de devops,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1543,,28/09/2026 01:56,09/10/2026 12:53,09/10/2026 12:53,,
+1546,Bug,Corrigir item 3 de devops,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 8,4,1543,,11/03/2026 00:10,10/06/2026 11:36,10/06/2026 11:36,,2 - High
+1547,Bug,Corrigir item 4 de devops,Done,Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 7,2,1543,,18/05/2026 14:53,31/05/2026 22:39,31/05/2026 22:39,,3 - Medium
+1548,Product Backlog Item,Implementar item 5 de devops,Done,Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,3,1543,,20/03/2026 00:13,07/10/2026 05:52,07/10/2026 05:52,,
+1549,Product Backlog Item,Implementar item 6 de devops,Em Testes (QA),,CRM\Plataforma e Dados,CRM\Sprint 16,1,1543,,23/07/2026 08:50,02/10/2026 00:07,,,
+1550,Bug,Corrigir item 7 de devops,Done,Ana Souza <ana@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 11,2,1543,,25/03/2026 03:12,30/07/2026 19:49,30/07/2026 19:49,,3 - Medium
+1551,Product Backlog Item,Implementar item 8 de devops,Done,Ana Souza <ana@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,1,1543,,12/08/2026 15:47,07/10/2026 17:38,07/10/2026 17:38,,
+1552,Product Backlog Item,Implementar item 9 de devops,Para Testar,Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 15,4,1543,,05/06/2026 23:18,17/09/2026 09:54,,,
+1553,Feature,DevOps - parte 2,In Progress,,CRM\Plataforma e Dados,CRM,,1542,,,,,,
+1554,Product Backlog Item,Implementar item 1 de devops,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1553,,16/09/2026 23:57,09/10/2026 21:56,09/10/2026 21:56,,
+1555,Product Backlog Item,Implementar item 2 de devops,Done,Ana Souza <ana@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 15,1,1553,,08/08/2026 23:55,19/09/2026 23:46,19/09/2026 23:46,,
+1556,Product Backlog Item,Implementar item 3 de devops,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,2,1553,,19/09/2026 06:00,29/09/2026 01:55,29/09/2026 01:55,,
+1557,Feature,DevOps - parte 3,In Progress,,CRM\Plataforma e Dados,CRM,,1542,,,,,,
+1558,Product Backlog Item,Implementar item 1 de devops,Done,Ana Souza <ana@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 15,3,1557,,08/09/2026 11:34,26/09/2026 23:24,26/09/2026 23:24,,
+1559,Product Backlog Item,Implementar item 2 de devops,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,1,1557,,25/06/2026 10:36,21/08/2026 21:36,21/08/2026 21:36,,
+1560,Product Backlog Item,Implementar item 3 de devops,Done,Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,3,1557,,26/08/2026 22:11,30/09/2026 07:37,30/09/2026 07:37,,
+1561,Product Backlog Item,Implementar item 4 de devops,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 14,3,1557,,04/08/2026 11:34,12/09/2026 23:08,12/09/2026 23:08,,
+1562,Product Backlog Item,Implementar item 5 de devops,Done,Ana Souza <ana@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 15,2,1557,,03/09/2026 05:49,22/09/2026 03:54,22/09/2026 03:54,,
+1563,Product Backlog Item,Implementar item 6 de devops,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 7,3,1557,,12/03/2026 20:09,05/06/2026 07:29,05/06/2026 07:29,,
+1564,Product Backlog Item,Implementar item 7 de devops,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,3,1557,,02/06/2026 10:31,30/09/2026 05:46,30/09/2026 05:46,,
+1565,Bug,Corrigir item 8 de devops,Em desenvolvimento,Diego Rocha <diego@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,1,1557,,12/04/2026 07:16,20/08/2026 12:21,,,3 - Medium
+1566,Product Backlog Item,Implementar item 9 de devops,Done,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1557,,30/09/2026 04:51,04/10/2026 14:58,04/10/2026 14:58,,
+1567,Product Backlog Item,Implementar item 10 de devops,Para Testar,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1557,,29/09/2026 11:42,29/09/2026 11:42,,,
+1568,Product Backlog Item,Implementar item 11 de devops,Done,,CRM\Plataforma e Dados,CRM\Sprint 15,4,1557,,17/08/2026 07:43,24/09/2026 15:03,24/09/2026 15:03,,
+1569,Bug,Corrigir item 12 de devops,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1557,,06/05/2026 12:36,03/10/2026 23:16,03/10/2026 23:16,,3 - Medium
+1570,Feature,DevOps - parte 4,In Progress,,CRM\Plataforma e Dados,CRM,,1542,,,,,,
+1571,Bug,Corrigir item 1 de devops,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 14,3,1570,,31/08/2026 14:17,31/08/2026 14:17,,,4 - Low
+1572,Bug,Corrigir item 2 de devops,Done,Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,2,1570,,24/09/2026 15:25,28/09/2026 10:13,28/09/2026 10:13,,3 - Medium
+1573,Epic,AMBIENTE DE PRODUÇÃO,In Progress,,CRM\Plataforma e Dados,CRM,1,,,,,,,
+1574,Feature,Ambiente de produção - parte 1,In Progress,,CRM\Plataforma e Dados,CRM,,1573,,,,,,
+1575,Bug,Corrigir item 1 de ambiente de produção,New,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,2,1574,,28/05/2026 11:22,04/10/2026 16:39,,,3 - Medium
+1576,Product Backlog Item,Implementar item 2 de ambiente de produção,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,2,1574,,03/07/2026 18:52,09/10/2026 19:18,,,
+1577,Product Backlog Item,Implementar item 3 de ambiente de produção,Em desenvolvimento,Gabi Torres <gabi@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 16,4,1574,,07/10/2026 13:36,07/10/2026 13:36,,,
+1578,Product Backlog Item,Implementar item 4 de ambiente de produção,Done,Ana Souza <ana@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,2,1574,,26/07/2026 17:33,27/08/2026 09:51,27/08/2026 09:51,,
+1579,Product Backlog Item,Implementar item 5 de ambiente de produção,Aguardando Deploy QA,Fábio Nunes <fábio@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,4,1574,,14/08/2026 01:27,17/08/2026 12:05,,,
+1580,Bug,Corrigir item 6 de ambiente de produção,Done,,CRM\Plataforma e Dados,CRM\Sprint 8,3,1574,,17/04/2026 17:17,18/06/2026 13:42,18/06/2026 13:42,,4 - Low
+1581,Product Backlog Item,Implementar item 7 de ambiente de produção,Para UAT,Elisa Prado <elisa@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 13,4,1574,,20/04/2026 05:55,24/08/2026 20:47,,,
+1582,Product Backlog Item,Implementar item 8 de ambiente de produção,Em desenvolvimento,,CRM\Plataforma e Dados,CRM\Sprint 13,1,1574,,12/05/2026 06:42,17/08/2026 20:40,,,
+1583,Product Backlog Item,Implementar item 9 de ambiente de produção,Done,Carla Dias <carla@exemplo.com>,CRM\Plataforma e Dados,CRM\Sprint 9,1,1574,,18/03/2026 18:57,04/07/2026 22:29,04/07/2026 22:29,,
+1584,Epic,ARQUITETURA,In Progress,,CRM\Base Estrutural,CRM,3,,,,,,,
+1585,Feature,Arquitetura - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1584,,,,,,
+1586,Bug,Corrigir item 1 de arquitetura,Em Homolog (UAT),Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,3,1585,,09/03/2026 22:28,25/07/2026 20:01,,,4 - Low
+1587,Epic,BARRAMENTO,In Progress,,CRM\Base Estrutural,CRM,1,,,,,,,
+1588,Feature,Barramento - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1587,,,,,,
+1589,Product Backlog Item,Implementar item 1 de barramento,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,3,1588,,15/08/2026 12:07,25/09/2026 07:03,25/09/2026 07:03,,
+1590,Product Backlog Item,Implementar item 2 de barramento,Para PROD,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,2,1588,,04/08/2026 19:35,04/08/2026 19:35,,,
+1591,Bug,Corrigir item 3 de barramento,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1588,,16/09/2026 08:25,18/09/2026 14:47,18/09/2026 14:47,,1 - Critical
+1592,Feature,Barramento - parte 2,In Progress,,CRM\Base Estrutural,CRM,,1587,,,,,,
+1593,Product Backlog Item,Implementar item 1 de barramento,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,3,1592,,14/09/2026 13:32,27/09/2026 16:49,27/09/2026 16:49,,
+1594,Product Backlog Item,Implementar item 2 de barramento,Para PROD,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1592,,24/07/2026 04:34,01/09/2026 04:38,,,
+1595,Product Backlog Item,Implementar item 3 de barramento,Para QA,,CRM\Base Estrutural,CRM\Sprint 13,2,1592,,11/08/2026 07:58,25/08/2026 06:40,,,
+1596,Product Backlog Item,Implementar item 4 de barramento,Done,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 10,1,1592,,14/06/2026 08:22,13/07/2026 19:03,13/07/2026 19:03,,
+1597,Product Backlog Item,Implementar item 5 de barramento,Backlog para Refinamento,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,3,1592,,11/04/2026 05:00,22/08/2026 17:39,,,
+1598,Epic,CONTEÚDO TÉCNICO TRANSVERSAL,In Progress,,CRM\Base Estrutural,CRM,1,,,,,,,
+1599,Feature,Conteúdo técnico transversal - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1598,,,,,,
+1600,Product Backlog Item,Implementar item 1 de conteúdo técnico transversal,Em Homolog (UAT),Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,4,1599,,13/08/2026 07:31,13/08/2026 07:31,,,
+1601,Bug,Corrigir item 2 de conteúdo técnico transversal,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 8,1,1599,,01/06/2026 18:53,11/06/2026 11:57,11/06/2026 11:57,,2 - High
+1602,Product Backlog Item,Implementar item 3 de conteúdo técnico transversal,Aguardando Deploy QA,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,4,1599,bloqueado,27/08/2026 18:57,27/08/2026 18:57,,,
+1603,Product Backlog Item,Implementar item 4 de conteúdo técnico transversal,Aguardando Deploy QA,Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1599,,14/09/2026 04:01,14/09/2026 04:01,,,
+1604,Product Backlog Item,Implementar item 5 de conteúdo técnico transversal,Em Testes (QA),Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 9,4,1599,,23/03/2026 12:09,03/07/2026 18:57,,,
+1605,Product Backlog Item,Implementar item 6 de conteúdo técnico transversal,Done,Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 9,2,1599,,31/03/2026 04:30,25/06/2026 05:21,25/06/2026 05:21,,
+1606,Product Backlog Item,Implementar item 7 de conteúdo técnico transversal,Em Testes (QA),Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,3,1599,,03/06/2026 21:10,13/09/2026 11:24,,,
+1607,Product Backlog Item,Implementar item 8 de conteúdo técnico transversal,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,3,1599,,05/08/2026 18:21,12/08/2026 03:13,12/08/2026 03:13,,
+1608,Product Backlog Item,Implementar item 9 de conteúdo técnico transversal,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 7,3,1599,,14/05/2026 01:08,29/05/2026 20:27,29/05/2026 20:27,,
+1609,Product Backlog Item,Implementar item 10 de conteúdo técnico transversal,Em Testes (QA),Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,3,1599,,27/06/2026 20:03,18/09/2026 19:50,,,
+1610,Product Backlog Item,Implementar item 11 de conteúdo técnico transversal,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,3,1599,,11/09/2026 04:58,21/09/2026 18:18,21/09/2026 18:18,,
+1611,Product Backlog Item,Implementar item 12 de conteúdo técnico transversal,Em Testes (QA),Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 10,2,1599,,06/04/2026 10:21,09/07/2026 15:46,,,
+1612,Epic,DEFINIÇÕES DE QA,In Progress,,CRM\Base Estrutural,CRM,3,,,,,,,
+1613,Feature,Definições de QA - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1612,,,,,,
+1614,Bug,Corrigir item 1 de definições de qa,Done,Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,2,1613,,11/03/2026 10:01,17/08/2026 03:28,17/08/2026 03:28,,1 - Critical
+1615,Product Backlog Item,Implementar item 2 de definições de qa,Done,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,3,1613,,23/04/2026 16:17,26/09/2026 23:48,26/09/2026 23:48,,
+1616,Bug,Corrigir item 3 de definições de qa,Done,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,4,1613,,27/09/2026 01:13,30/09/2026 07:32,30/09/2026 07:32,,1 - Critical
+1617,Bug,Corrigir item 4 de definições de qa,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,4,1613,,09/06/2026 14:02,30/09/2026 14:56,30/09/2026 14:56,,3 - Medium
+1618,Product Backlog Item,Implementar item 5 de definições de qa,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,4,1613,,26/06/2026 19:16,13/09/2026 11:29,13/09/2026 11:29,,
+1619,Product Backlog Item,Implementar item 6 de definições de qa,Done,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 8,2,1613,,28/05/2026 16:14,08/06/2026 08:46,08/06/2026 08:46,,
+1620,Product Backlog Item,Implementar item 7 de definições de qa,Para QA,,CRM\Base Estrutural,CRM\Sprint 12,4,1613,,07/07/2026 00:16,15/08/2026 22:26,,,
+1621,Product Backlog Item,Implementar item 8 de definições de qa,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 4,4,1613,,03/04/2026 19:22,20/04/2026 10:29,20/04/2026 10:29,,
+1622,Product Backlog Item,Implementar item 9 de definições de qa,Em Homolog (UAT),Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1613,,25/08/2026 22:39,05/09/2026 01:27,,,
+1623,Product Backlog Item,Implementar item 10 de definições de qa,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,3,1613,,24/07/2026 21:13,26/08/2026 06:55,26/08/2026 06:55,,
+1624,Product Backlog Item,Implementar item 11 de definições de qa,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 6,3,1613,,23/03/2026 18:38,20/05/2026 19:42,20/05/2026 19:42,,
+1625,Feature,Definições de QA - parte 2,In Progress,,CRM\Base Estrutural,CRM,,1612,,,,,,
+1626,Product Backlog Item,Implementar item 1 de definições de qa,Done,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,2,1625,,10/07/2026 06:40,24/08/2026 12:57,24/08/2026 12:57,,
+1627,Product Backlog Item,Implementar item 2 de definições de qa,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 8,1,1625,,17/04/2026 04:38,20/06/2026 00:52,20/06/2026 00:52,,
+1628,Bug,Corrigir item 3 de definições de qa,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 6,3,1625,,07/03/2026 04:02,11/05/2026 10:38,11/05/2026 10:38,,1 - Critical
+1629,Bug,Corrigir item 4 de definições de qa,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,4,1625,,17/08/2026 19:24,26/09/2026 16:28,26/09/2026 16:28,,1 - Critical
+1630,Bug,Corrigir item 5 de definições de qa,Done,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,1,1625,,13/07/2026 03:54,12/08/2026 18:15,12/08/2026 18:15,,1 - Critical
+1631,Product Backlog Item,Implementar item 6 de definições de qa,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,4,1625,,11/06/2026 04:12,05/09/2026 22:32,05/09/2026 22:32,,
+1632,Bug,Corrigir item 7 de definições de qa,Done,,CRM\Base Estrutural,CRM\Sprint 16,2,1625,,21/06/2026 09:58,30/09/2026 22:41,30/09/2026 22:41,,3 - Medium
+1633,Product Backlog Item,Implementar item 8 de definições de qa,Done,,CRM\Base Estrutural,CRM\Sprint 15,1,1625,,07/08/2026 20:06,22/09/2026 01:40,22/09/2026 01:40,,
+1634,Product Backlog Item,Implementar item 9 de definições de qa,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,1,1625,,22/08/2026 11:18,17/09/2026 03:47,17/09/2026 03:47,,
+1635,Product Backlog Item,Implementar item 10 de definições de qa,Em Homolog (UAT),Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 9,1,1625,,17/03/2026 16:04,28/06/2026 21:52,,,
+1636,Epic,GESTÃO DO PROJETO,In Progress,,CRM\Base Estrutural,CRM,3,,,,,,27/12/2026,
+1637,Feature,Gestão do projeto - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1636,,,,,,
+1638,Product Backlog Item,Implementar item 1 de gestão do projeto,Para UAT,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1637,,19/09/2026 22:28,19/09/2026 22:28,,,
+1639,Bug,Corrigir item 2 de gestão do projeto,Em Testes (QA),Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1637,,03/09/2026 01:24,03/09/2026 01:24,,,4 - Low
+1640,Product Backlog Item,Implementar item 3 de gestão do projeto,Backlog para Refinamento,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 9,3,1637,,24/04/2026 19:10,03/07/2026 22:57,,,
+1641,Product Backlog Item,Implementar item 4 de gestão do projeto,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,1,1637,,12/06/2026 23:03,18/08/2026 14:42,18/08/2026 14:42,,
+1642,Bug,Corrigir item 5 de gestão do projeto,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,4,1637,,23/03/2026 06:20,05/10/2026 16:02,,,2 - High
+1643,Feature,Gestão do projeto - parte 2,In Progress,,CRM\Base Estrutural,CRM,,1636,,,,,,
+1644,Product Backlog Item,Implementar item 1 de gestão do projeto,Para QA,,CRM\Base Estrutural,CRM\Sprint 10,1,1643,,19/04/2026 21:38,09/07/2026 18:19,,,
+1645,Bug,Corrigir item 2 de gestão do projeto,New,,CRM\Base Estrutural,CRM\Sprint 12,2,1643,,16/03/2026 22:41,05/08/2026 18:44,,,1 - Critical
+1646,Bug,Corrigir item 3 de gestão do projeto,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,4,1643,,23/09/2026 12:17,02/10/2026 06:31,02/10/2026 06:31,,4 - Low
+1647,Product Backlog Item,Implementar item 4 de gestão do projeto,Para QA,,CRM\Base Estrutural,CRM\Sprint 10,4,1643,,13/07/2026 23:42,13/07/2026 23:42,,,
+1648,Product Backlog Item,Implementar item 5 de gestão do projeto,Em Ref. Técnico,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,3,1643,,05/05/2026 08:08,28/07/2026 07:13,,,
+1649,Product Backlog Item,Implementar item 6 de gestão do projeto,Em Testes (QA),Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,1,1643,,18/08/2026 22:44,18/08/2026 22:44,,,
+1650,Product Backlog Item,Implementar item 7 de gestão do projeto,Em Homolog (UAT),Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 9,1,1643,,12/03/2026 17:29,27/06/2026 13:08,,,
+1651,Product Backlog Item,Implementar item 8 de gestão do projeto,Para QA,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,4,1643,,31/08/2026 21:46,31/08/2026 21:46,,,
+1652,Product Backlog Item,Implementar item 9 de gestão do projeto,Pronto para Desenvolvimento,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1643,,19/09/2026 08:38,19/09/2026 08:38,,,
+1653,Product Backlog Item,Implementar item 10 de gestão do projeto,Backlog para Refinamento,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,4,1643,,09/09/2026 18:09,09/09/2026 18:09,,,
+1654,Feature,Gestão do projeto - parte 3,In Progress,,CRM\Base Estrutural,CRM,,1636,,,,,,
+1655,Bug,Corrigir item 1 de gestão do projeto,Em Testes (QA),Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,1,1654,,22/04/2026 03:23,25/08/2026 18:25,,,2 - High
+1656,Product Backlog Item,Implementar item 2 de gestão do projeto,Para Testar,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,2,1654,,31/07/2026 05:08,03/08/2026 21:20,,,
+1657,Product Backlog Item,Implementar item 3 de gestão do projeto,Bloqueado,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,4,1654,,15/09/2026 09:59,15/09/2026 09:59,,,
+1658,Product Backlog Item,Implementar item 4 de gestão do projeto,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,3,1654,,28/06/2026 01:55,06/09/2026 11:40,06/09/2026 11:40,,
+1659,Product Backlog Item,Implementar item 5 de gestão do projeto,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,3,1654,,23/09/2026 04:41,09/10/2026 23:53,09/10/2026 23:53,,
+1660,Bug,Corrigir item 6 de gestão do projeto,Em Homolog (UAT),Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,2,1654,,12/04/2026 02:01,04/08/2026 11:22,,,3 - Medium
+1661,Product Backlog Item,Implementar item 7 de gestão do projeto,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1654,,17/09/2026 12:38,19/09/2026 17:47,19/09/2026 17:47,,
+1662,Product Backlog Item,Implementar item 8 de gestão do projeto,Em Homolog (UAT),Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,4,1654,,29/04/2026 12:45,25/09/2026 13:23,,,
+1663,Product Backlog Item,Implementar item 9 de gestão do projeto,Em Ref. Técnico,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,3,1654,,28/05/2026 01:31,03/08/2026 20:32,,,
+1664,Product Backlog Item,Implementar item 10 de gestão do projeto,Para PROD,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1654,,26/07/2026 13:05,07/09/2026 00:54,,,
+1665,Product Backlog Item,Implementar item 11 de gestão do projeto,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,1,1654,,25/07/2026 23:49,02/10/2026 21:15,02/10/2026 21:15,,
+1666,Epic,LICENÇAS,In Progress,,CRM\Base Estrutural,CRM,3,,,,,,,
+1667,Feature,Licenças - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1666,,,,,,
+1668,Product Backlog Item,Implementar item 1 de licenças,Done,,CRM\Base Estrutural,CRM\Sprint 14,1,1667,,11/03/2026 00:21,09/09/2026 17:34,09/09/2026 17:34,,
+1669,Product Backlog Item,Implementar item 2 de licenças,Backlog para Refinamento,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,4,1667,,28/07/2026 17:29,08/08/2026 05:24,,,
+1670,Feature,Licenças - parte 2,In Progress,,CRM\Base Estrutural,CRM,,1666,,,,,,
+1671,Product Backlog Item,Implementar item 1 de licenças,Para QA,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,3,1670,,10/03/2026 00:40,05/10/2026 04:14,,,
+1672,Feature,Licenças - parte 3,In Progress,,CRM\Base Estrutural,CRM,,1666,,,,,,
+1673,Product Backlog Item,Implementar item 1 de licenças,Bloqueado,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 10,2,1672,,24/05/2026 07:55,06/07/2026 17:12,,,
+1674,Product Backlog Item,Implementar item 2 de licenças,Aguardando Deploy QA,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,3,1672,,24/03/2026 09:24,21/08/2026 12:55,,,
+1675,Product Backlog Item,Implementar item 3 de licenças,Para PROD,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 10,4,1672,,27/05/2026 02:28,18/07/2026 03:48,,,
+1676,Feature,Licenças - parte 4,In Progress,,CRM\Base Estrutural,CRM,,1666,,,,,,
+1677,Product Backlog Item,Implementar item 1 de licenças,Para Testar,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,2,1676,,01/08/2026 00:01,01/08/2026 00:01,,,
+1678,Product Backlog Item,Implementar item 2 de licenças,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,4,1676,,13/07/2026 01:08,06/09/2026 16:21,06/09/2026 16:21,,
+1679,Epic,SEGURANÇA E LGPD,In Progress,,CRM\Base Estrutural,CRM,1,,,,,,,
+1680,Feature,Segurança e LGPD - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1679,,,,,,
+1681,Bug,Corrigir item 1 de segurança e lgpd,Em Homolog (UAT),Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 9,2,1680,,03/03/2026 17:04,30/06/2026 00:31,,,1 - Critical
+1682,Product Backlog Item,Implementar item 2 de segurança e lgpd,Para Testar,Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,2,1680,,13/04/2026 08:20,06/10/2026 20:15,,,
+1683,Feature,Segurança e LGPD - parte 2,In Progress,,CRM\Base Estrutural,CRM,,1679,,,,,,
+1684,Product Backlog Item,Implementar item 1 de segurança e lgpd,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,4,1683,,31/05/2026 22:35,31/07/2026 02:40,31/07/2026 02:40,,
+1685,Feature,Segurança e LGPD - parte 3,In Progress,,CRM\Base Estrutural,CRM,,1679,,,,,,
+1686,Bug,Corrigir item 1 de segurança e lgpd,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,2,1685,,21/07/2026 02:06,28/07/2026 00:14,28/07/2026 00:14,,3 - Medium
+1687,Product Backlog Item,Implementar item 2 de segurança e lgpd,Em Homolog (UAT),Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,4,1685,,09/03/2026 13:16,22/09/2026 05:18,,,
+1688,Product Backlog Item,Implementar item 3 de segurança e lgpd,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,4,1685,,30/08/2026 03:38,17/09/2026 01:45,17/09/2026 01:45,,
+1689,Bug,Corrigir item 4 de segurança e lgpd,Bloqueado,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 13,2,1685,,27/04/2026 06:49,30/08/2026 17:50,,,4 - Low
+1690,Product Backlog Item,Implementar item 5 de segurança e lgpd,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1685,,05/09/2026 00:01,21/09/2026 20:24,21/09/2026 20:24,,
+1691,Bug,Corrigir item 6 de segurança e lgpd,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,3,1685,,28/06/2026 05:06,12/09/2026 09:47,12/09/2026 09:47,,4 - Low
+1692,Product Backlog Item,Implementar item 7 de segurança e lgpd,New,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,1,1685,,26/09/2026 17:01,26/09/2026 17:01,,,
+1693,Product Backlog Item,Implementar item 8 de segurança e lgpd,Done,,CRM\Base Estrutural,CRM\Sprint 7,1,1685,,19/03/2026 12:23,06/06/2026 03:05,06/06/2026 03:05,,
+1694,Product Backlog Item,Implementar item 9 de segurança e lgpd,Pronto para Desenvolvimento,,CRM\Base Estrutural,CRM\Sprint 14,1,1685,,06/09/2026 10:49,13/09/2026 22:24,,,
+1695,Product Backlog Item,Implementar item 10 de segurança e lgpd,Para Testar,Gabi Torres <gabi@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,1,1685,,29/08/2026 23:10,02/09/2026 21:17,,,
+1696,Product Backlog Item,Implementar item 11 de segurança e lgpd,Pronto para Desenvolvimento,,CRM\Base Estrutural,CRM\Sprint 13,1,1685,,29/08/2026 13:44,30/08/2026 18:20,,,
+1697,Product Backlog Item,Implementar item 12 de segurança e lgpd,Para Testar,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 10,1,1685,bloqueado,06/07/2026 03:20,09/07/2026 16:31,,,
+1698,Epic,VALIDADOR,Done,,CRM\Base Estrutural,CRM,1,,,,,,16/12/2026,
+1699,Feature,Validador - parte 1,In Progress,,CRM\Base Estrutural,CRM,,1698,,,,,,
+1700,Product Backlog Item,Implementar item 1 de validador,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,4,1699,,05/04/2026 22:22,31/07/2026 01:28,31/07/2026 01:28,,
+1701,Product Backlog Item,Implementar item 2 de validador,Done,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1699,,03/09/2026 00:12,22/09/2026 10:42,22/09/2026 10:42,,
+1702,Product Backlog Item,Implementar item 3 de validador,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 4,1,1699,,21/03/2026 04:49,14/04/2026 04:41,14/04/2026 04:41,,
+1703,Product Backlog Item,Implementar item 4 de validador,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1699,,18/04/2026 00:24,06/09/2026 13:14,06/09/2026 13:14,,
+1704,Product Backlog Item,Implementar item 5 de validador,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,4,1699,,25/04/2026 03:48,20/09/2026 20:57,20/09/2026 20:57,,
+1705,Bug,Corrigir item 6 de validador,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,1,1699,,26/06/2026 04:07,26/07/2026 02:59,26/07/2026 02:59,,2 - High
+1706,Bug,Corrigir item 7 de validador,Done,,CRM\Base Estrutural,CRM\Sprint 16,3,1699,,26/04/2026 20:29,03/10/2026 13:34,03/10/2026 13:34,,2 - High
+1707,Feature,Validador - parte 2,In Progress,,CRM\Base Estrutural,CRM,,1698,,,,,,
+1708,Product Backlog Item,Implementar item 1 de validador,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 1,1,1707,,09/03/2026 14:53,13/03/2026 14:59,13/03/2026 14:59,,
+1709,Bug,Corrigir item 2 de validador,Done,Carla Dias <carla@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 6,4,1707,,11/03/2026 04:06,16/05/2026 02:39,16/05/2026 02:39,,3 - Medium
+1710,Product Backlog Item,Implementar item 3 de validador,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,3,1707,,09/09/2026 08:35,01/10/2026 05:52,01/10/2026 05:52,,
+1711,Product Backlog Item,Implementar item 4 de validador,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,3,1707,,23/09/2026 19:08,09/10/2026 10:32,09/10/2026 10:32,,
+1712,Product Backlog Item,Implementar item 5 de validador,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,2,1707,,16/04/2026 04:56,25/09/2026 20:23,25/09/2026 20:23,,
+1713,Product Backlog Item,Implementar item 6 de validador,Done,Elisa Prado <elisa@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,1,1707,,04/08/2026 16:32,08/09/2026 09:15,08/09/2026 09:15,,
+1714,Bug,Corrigir item 7 de validador,Done,Bruno Lima <bruno@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 16,4,1707,,07/09/2026 00:28,05/10/2026 06:00,05/10/2026 06:00,,3 - Medium
+1715,Product Backlog Item,Implementar item 8 de validador,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 12,4,1707,,01/04/2026 11:41,04/08/2026 06:50,04/08/2026 06:50,,
+1716,Product Backlog Item,Implementar item 9 de validador,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,3,1707,,12/03/2026 23:12,27/09/2026 13:34,27/09/2026 13:34,,
+1717,Product Backlog Item,Implementar item 10 de validador,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,4,1707,,31/08/2026 23:25,05/09/2026 21:47,05/09/2026 21:47,,
+1718,Feature,Validador - parte 3,In Progress,,CRM\Base Estrutural,CRM,,1698,,,,,,
+1719,Product Backlog Item,Implementar item 1 de validador,Done,Hugo Melo <hugo@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 6,1,1718,,20/04/2026 11:33,15/05/2026 08:20,15/05/2026 08:20,,
+1720,Product Backlog Item,Implementar item 2 de validador,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1718,,26/04/2026 18:47,05/09/2026 06:50,05/09/2026 06:50,,
+1721,Product Backlog Item,Implementar item 3 de validador,Done,Ana Souza <ana@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 15,1,1718,,22/09/2026 08:45,23/09/2026 12:09,23/09/2026 12:09,,
+1722,Product Backlog Item,Implementar item 4 de validador,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 14,2,1718,,13/08/2026 00:58,09/09/2026 22:23,09/09/2026 22:23,,
+1723,Product Backlog Item,Implementar item 5 de validador,Done,Fábio Nunes <fábio@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 7,1,1718,,31/05/2026 22:00,02/06/2026 06:21,02/06/2026 06:21,,
+1724,Bug,Corrigir item 6 de validador,Done,Diego Rocha <diego@exemplo.com>,CRM\Base Estrutural,CRM\Sprint 11,1,1718,,08/07/2026 23:35,23/07/2026 14:04,23/07/2026 14:04,,3 - Medium
+1725,Product Backlog Item,Item avulso 1,Done,Hugo Melo <hugo@exemplo.com>,CRM,CRM\Sprint 14,2,,,02/07/2026 04:10,01/09/2026 18:19,09/10/2026 22:24,,
+1726,Product Backlog Item,Item avulso 2,Para PROD,Ana Souza <ana@exemplo.com>,CRM,CRM\Sprint 16,2,,,01/07/2026 02:38,05/10/2026 09:24,,,
+1727,Product Backlog Item,Item avulso 3,Code Review,Gabi Torres <gabi@exemplo.com>,CRM,CRM\Sprint 14,2,,,12/07/2026 08:06,01/09/2026 06:52,,,
+1728,Product Backlog Item,Item avulso 4,Em Testes (QA),Ana Souza <ana@exemplo.com>,CRM,CRM\Sprint 16,2,,,30/07/2026 19:24,28/09/2026 14:28,,,
+1729,Bug,Item avulso 5,Done,Hugo Melo <hugo@exemplo.com>,CRM,CRM\Sprint 15,2,,,20/07/2026 21:54,16/09/2026 02:23,23/09/2026 13:22,,
+1730,Bug,Item avulso 6,Code Review,Bruno Lima <bruno@exemplo.com>,CRM,CRM\Sprint 16,2,,,14/08/2026 09:33,03/10/2026 18:17,,,
+1731,Bug,Item avulso 7,Para Testar,Carla Dias <carla@exemplo.com>,CRM,CRM\Sprint 14,2,,,29/06/2026 05:14,31/08/2026 17:56,,,
+1732,Bug,Item avulso 8,Para Testar,,CRM,CRM\Sprint 16,2,,,22/08/2026 02:29,07/10/2026 14:53,,,
+1733,Product Backlog Item,Item avulso 9,Done,Gabi Torres <gabi@exemplo.com>,CRM,CRM\Sprint 16,2,,,12/06/2026 07:30,04/10/2026 16:08,01/09/2026 05:54,,
+1734,Bug,Item avulso 10,Code Review,Diego Rocha <diego@exemplo.com>,CRM,CRM\Sprint 14,2,,,17/08/2026 21:21,06/09/2026 17:21,,,
+1735,Bug,Item avulso 11,Done,Diego Rocha <diego@exemplo.com>,CRM,CRM\Sprint 14,2,,,13/06/2026 06:41,06/09/2026 23:18,15/09/2026 15:46,,
+1736,Product Backlog Item,Item avulso 12,Done,Hugo Melo <hugo@exemplo.com>,CRM,CRM\Sprint 16,2,,,15/07/2026 20:53,08/10/2026 19:49,16/09/2026 05:24,,
+1737,Bug,Item avulso 13,Aguardando Deploy QA,Hugo Melo <hugo@exemplo.com>,CRM,CRM\Sprint 16,2,,,03/07/2026 11:39,09/10/2026 21:32,,,
+1738,Product Backlog Item,Item avulso 14,New,Fábio Nunes <fábio@exemplo.com>,CRM,CRM\Sprint 15,2,,,12/06/2026 09:18,24/09/2026 07:14,,,
+1739,Bug,Item avulso 15,Para Testar,Diego Rocha <diego@exemplo.com>,CRM,CRM\Sprint 14,2,,,18/09/2026 16:53,11/09/2026 16:37,,,
+1740,Bug,Item avulso 16,Em Homolog (UAT),Hugo Melo <hugo@exemplo.com>,CRM,CRM\Sprint 15,2,,,30/08/2026 15:07,25/09/2026 06:17,,,
+1741,Bug,Item avulso 17,Para QA,,CRM,CRM\Sprint 16,2,,,15/08/2026 22:31,28/09/2026 14:18,,,
+1742,Bug,Item avulso 18,Done,Carla Dias <carla@exemplo.com>,CRM,CRM\Sprint 16,2,,,10/07/2026 15:52,05/10/2026 16:59,24/09/2026 12:11,,
+1743,Bug,Item avulso 19,Aguardando Deploy UAT,,CRM,CRM\Sprint 15,2,,,15/09/2026 21:03,25/09/2026 15:51,,,
+1744,Product Backlog Item,Item avulso 20,UX,,CRM,CRM\Sprint 16,2,,,03/10/2026 17:46,28/09/2026 10:38,,,
+1745,Bug,Item avulso 21,Done,Carla Dias <carla@exemplo.com>,CRM,CRM\Sprint 14,2,,,23/09/2026 19:17,31/08/2026 13:25,31/08/2026 21:01,,
+1746,Bug,Item avulso 22,New,Fábio Nunes <fábio@exemplo.com>,CRM,CRM\Sprint 16,2,,,08/10/2026 19:21,02/10/2026 11:30,,,
+1747,Bug,Item avulso 23,Done,Diego Rocha <diego@exemplo.com>,CRM,CRM\Sprint 14,2,,,26/08/2026 20:47,31/08/2026 18:55,26/09/2026 12:19,,
+1748,Bug,Item avulso 24,Done,Elisa Prado <elisa@exemplo.com>,CRM,CRM\Sprint 14,2,,,06/07/2026 00:01,13/09/2026 10:57,20/09/2026 05:49,,
+1749,Product Backlog Item,Item avulso 25,Done,Ana Souza <ana@exemplo.com>,CRM,CRM\Sprint 14,2,,,20/08/2026 13:49,10/09/2026 22:04,04/10/2026 11:42,,
